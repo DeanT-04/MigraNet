@@ -230,7 +230,7 @@ class PubMedNLPNetwork:
             abstract = ""
             if abstract_col:
                 abstract = row.get(abstract_col, "")
-            
+
             # Fallback if abstract is missing or empty
             if pd.isna(abstract) or str(abstract).strip() == "":
                 # Construct text from Title and Manual Tags if available
@@ -239,7 +239,7 @@ class PubMedNLPNetwork:
                     parts.append(str(row.get("Title")))
                 if "Manual Tags" in df.columns and not pd.isna(row.get("Manual Tags")):
                     parts.append(str(row.get("Manual Tags")).replace(";", " "))
-                
+
                 if parts:
                     abstract = " ".join(parts)
                 else:
@@ -316,7 +316,7 @@ def main():
 
     if not os.path.exists(file_path):
         file_path = r"../data/raw/PubMed.csv"
-        
+
     if not os.path.exists(file_path):
         # Fallback for running from project root
         file_path = r"english_version/data/raw/PubMed.csv"
