@@ -26,6 +26,7 @@ headache_related_disability,quality_life,2,Undirected,Headache-Related Disabilit
 headache_related_disability,vascular,2,Undirected,Headache-Related Disability,Vascular
 quality_life,vascular,34,Undirected,Quality Life,Vascular
 calcitonin_gene_related,calcitonin_gene_related_peptid,98,Undirected,Calcitonin Gene-Related,Calcitonin Gene-Related Peptide
+calcitonin_gene_related,cgrp,165,Undirected,Calcitonin Gene-Related,Cgrp
 calcitonin_gene_related,cost_illness,4,Undirected,Calcitonin Gene-Related,Cost Illness
 calcitonin_gene_related,disability,46,Undirected,Calcitonin Gene-Related,Disability
 calcitonin_gene_related,erenumab,55,Undirected,Calcitonin Gene-Related,Erenumab
@@ -33,11 +34,19 @@ calcitonin_gene_related,fremanezumab,46,Undirected,Calcitonin Gene-Related,Frema
 calcitonin_gene_related,galcanezumab,46,Undirected,Calcitonin Gene-Related,Galcanezumab
 calcitonin_gene_related,lasmiditan,8,Undirected,Calcitonin Gene-Related,Lasmiditan
 calcitonin_gene_related,quality_life,72,Undirected,Calcitonin Gene-Related,Quality Life
+calcitonin_gene_related_peptid,cgrp,81,Undirected,Calcitonin Gene-Related Peptide,Cgrp
 calcitonin_gene_related_peptid,disability,20,Undirected,Calcitonin Gene-Related Peptide,Disability
 calcitonin_gene_related_peptid,erenumab,33,Undirected,Calcitonin Gene-Related Peptide,Erenumab
 calcitonin_gene_related_peptid,fremanezumab,33,Undirected,Calcitonin Gene-Related Peptide,Fremanezumab
 calcitonin_gene_related_peptid,galcanezumab,38,Undirected,Calcitonin Gene-Related Peptide,Galcanezumab
 calcitonin_gene_related_peptid,quality_life,33,Undirected,Calcitonin Gene-Related Peptide,Quality Life
+cgrp,cost_illness,5,Undirected,Cgrp,Cost Illness
+cgrp,disability,45,Undirected,Cgrp,Disability
+cgrp,erenumab,53,Undirected,Cgrp,Erenumab
+cgrp,fremanezumab,42,Undirected,Cgrp,Fremanezumab
+cgrp,galcanezumab,49,Undirected,Cgrp,Galcanezumab
+cgrp,lasmiditan,4,Undirected,Cgrp,Lasmiditan
+cgrp,quality_life,77,Undirected,Cgrp,Quality Life
 cost_illness,galcanezumab,3,Undirected,Cost Illness,Galcanezumab
 cost_illness,lasmiditan,2,Undirected,Cost Illness,Lasmiditan
 disability,erenumab,31,Undirected,Disability,Erenumab
@@ -156,6 +165,8 @@ physical_therapy,trigeminal,3,Undirected,Physical Therapy,Trigeminal
 physical_therapy_modalities,trigeminal,2,Undirected,Physical Therapy Modalities,Trigeminal
 calcitonin_gene_related,headache_days,30,Undirected,Calcitonin Gene-Related,Headache Days
 calcitonin_gene_related,treatment_outcome,68,Undirected,Calcitonin Gene-Related,Treatment Outcome
+cgrp,headache_days,32,Undirected,Cgrp,Headache Days
+cgrp,treatment_outcome,61,Undirected,Cgrp,Treatment Outcome
 galcanezumab,headache_days,30,Undirected,Galcanezumab,Headache Days
 galcanezumab,treatment_outcome,35,Undirected,Galcanezumab,Treatment Outcome
 headache_days,quality_life,117,Undirected,Headache Days,Quality Life
@@ -229,12 +240,18 @@ quality_life,social_stigma,7,Undirected,Quality Life,Social Stigma
 quality_life,stigma,16,Undirected,Quality Life,Stigma
 social_stigma,stigma,16,Undirected,Social Stigma,Stigma
 botulinum,calcitonin_gene_related,20,Undirected,Botulinum,Calcitonin Gene-Related
+botulinum,cgrp,27,Undirected,Botulinum,Cgrp
 botulinum,comorbidity,2,Undirected,Botulinum,Comorbidity
 botulinum,depression,7,Undirected,Botulinum,Depression
 botulinum,therapy,11,Undirected,Botulinum,Therapy
 botulinum,transcranial_magnetic,3,Undirected,Botulinum,Transcranial Magnetic
 calcitonin_gene_related,therapy,18,Undirected,Calcitonin Gene-Related,Therapy
 calcitonin_gene_related,transcranial_magnetic,6,Undirected,Calcitonin Gene-Related,Transcranial Magnetic
+cgrp,comorbidity,8,Undirected,Cgrp,Comorbidity
+cgrp,depression,13,Undirected,Cgrp,Depression
+cgrp,hormonal,3,Undirected,Cgrp,Hormonal
+cgrp,therapy,15,Undirected,Cgrp,Therapy
+cgrp,transcranial_magnetic,6,Undirected,Cgrp,Transcranial Magnetic
 comorbidity,therapy,8,Undirected,Comorbidity,Therapy
 comorbidity,transcranial_magnetic,3,Undirected,Comorbidity,Transcranial Magnetic
 depression,therapy,13,Undirected,Depression,Therapy
@@ -370,9 +387,14 @@ calcitonin_gene_related_peptid,inflammatory,7,Undirected,Calcitonin Gene-Related
 calcitonin_gene_related_peptid,migraine_therapy,23,Undirected,Calcitonin Gene-Related Peptide,Migraine Therapy
 calcitonin_gene_related_peptid,trigeminovascular,10,Undirected,Calcitonin Gene-Related Peptide,Trigeminovascular
 calcitonin_gene_related_peptid,vascular,21,Undirected,Calcitonin Gene-Related Peptide,Vascular
+calcitonin_gene_related_use,cgrp,12,Undirected,Calcitonin Gene-Related Use,Cgrp
 calcitonin_gene_related_use,inflammatory,2,Undirected,Calcitonin Gene-Related Use,Inflammatory
 calcitonin_gene_related_use,migraine_therapy,6,Undirected,Calcitonin Gene-Related Use,Migraine Therapy
 calcitonin_gene_related_use,vascular,2,Undirected,Calcitonin Gene-Related Use,Vascular
+cgrp,inflammatory,27,Undirected,Cgrp,Inflammatory
+cgrp,migraine_therapy,67,Undirected,Cgrp,Migraine Therapy
+cgrp,trigeminovascular,15,Undirected,Cgrp,Trigeminovascular
+cgrp,vascular,35,Undirected,Cgrp,Vascular
 inflammatory,migraine_therapy,18,Undirected,Inflammatory,Migraine Therapy
 inflammatory,trigeminovascular,7,Undirected,Inflammatory,Trigeminovascular
 migraine_therapy,trigeminovascular,3,Undirected,Migraine Therapy,Trigeminovascular
@@ -437,10 +459,13 @@ propranolol,topiramate,23,Undirected,Propranolol,Topiramate
 propranolol,valproate,9,Undirected,Propranolol,Valproate
 quality_life,valproate,5,Undirected,Quality Life,Valproate
 topiramate,valproate,12,Undirected,Topiramate,Valproate
+calcitonin_gene_related,cgrp_antagonists,2,Undirected,Calcitonin Gene-Related,Cgrp Antagonists
+cgrp_antagonists,quality_life,2,Undirected,Cgrp Antagonists,Quality Life
 disability,headache_days,101,Undirected,Disability,Headache Days
 disability,treatment_outcome,139,Undirected,Disability,Treatment Outcome
 cluster_headache,triptans,3,Undirected,Cluster Headache,Triptans
 comorbidity,triptans,15,Undirected,Comorbidity,Triptans
+calcitonin_gene_related_peptid,cgrp,22,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Cgrp
 calcitonin_gene_related_peptid,comorbidity,2,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Comorbidity
 calcitonin_gene_related_peptid,erenumab,13,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Erenumab
 calcitonin_gene_related_peptid,fremanezumab,6,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Fremanezumab
@@ -450,6 +475,8 @@ calcitonin_gene_related_peptid,medication_overuse_headache,4,Undirected,Calciton
 calcitonin_gene_related_peptid,migraine_therapy,12,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Migraine Therapy
 calcitonin_gene_related_peptid,therapy,3,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Therapy
 calcitonin_gene_related_peptid,treatment_outcome,8,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Treatment Outcome
+cgrp,medication_overuse_headache,7,Undirected,Cgrp,Medication Overuse Headache
+cgrp,moh,4,Undirected,Cgrp,Moh
 comorbidity,erenumab,4,Undirected,Comorbidity,Erenumab
 comorbidity,galcanezumab,3,Undirected,Comorbidity,Galcanezumab
 comorbidity,migraine_therapy,8,Undirected,Comorbidity,Migraine Therapy
@@ -486,6 +513,10 @@ calcitonin_gene_related,gepants,30,Undirected,Calcitonin Gene-Related,Gepants
 calcitonin_gene_related_peptid,cgrp_receptor,10,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Cgrp Receptor
 calcitonin_gene_related_peptid,gepants,8,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Gepants
 calcitonin_gene_related_peptid,quality_life,11,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Quality Life
+cgrp,cgrp_receptor,44,Undirected,Cgrp,Cgrp Receptor
+cgrp,diet,6,Undirected,Cgrp,Diet
+cgrp,gepants,26,Undirected,Cgrp,Gepants
+cgrp,ketogenic_diet,2,Undirected,Cgrp,Ketogenic Diet
 cgrp_receptor,gepants,12,Undirected,Cgrp Receptor,Gepants
 cgrp_receptor,migraine_therapy,12,Undirected,Cgrp Receptor,Migraine Therapy
 cgrp_receptor,quality_life,11,Undirected,Cgrp Receptor,Quality Life
@@ -535,6 +566,7 @@ tms,transcranial_magnetic,53,Undirected,Tms,Transcranial Magnetic
 tms,trigeminal,6,Undirected,Tms,Trigeminal
 transcranial_magnetic,trigeminal,13,Undirected,Transcranial Magnetic,Trigeminal
 calcitonin_gene_related,cytokines,6,Undirected,Calcitonin Gene-Related,Cytokines
+cgrp,cytokines,6,Undirected,Cgrp,Cytokines
 cytokines,inflammatory,15,Undirected,Cytokines,Inflammatory
 central_sensitization,depression,10,Undirected,Central Sensitization,Depression
 anti_inflammatory_agents,comorbidity,5,Undirected,Anti-Inflammatory Agents,Comorbidity
@@ -713,6 +745,7 @@ comorbidity,monoclonal_antibodies,3,Undirected,Comorbidity,Monoclonal Antibodies
 monoclonal_antibodies,trigeminal,9,Undirected,Monoclonal Antibodies,Trigeminal
 calcitonin_gene_related,calcitonin_gene_related_peptid,27,Undirected,Calcitonin Gene-Related,Calcitonin Gene-Related Peptide Receptor
 calcitonin_gene_related,monoclonal_antibodies,71,Undirected,Calcitonin Gene-Related,Monoclonal Antibodies
+calcitonin_gene_related_peptid,cgrp,19,Undirected,Calcitonin Gene-Related Peptide Receptor,Cgrp
 calcitonin_gene_related_peptid,comorbidity,2,Undirected,Calcitonin Gene-Related Peptide Receptor,Comorbidity
 calcitonin_gene_related_peptid,disability,3,Undirected,Calcitonin Gene-Related Peptide Receptor,Disability
 calcitonin_gene_related_peptid,erenumab,10,Undirected,Calcitonin Gene-Related Peptide Receptor,Erenumab
@@ -720,6 +753,7 @@ calcitonin_gene_related_peptid,fremanezumab,6,Undirected,Calcitonin Gene-Related
 calcitonin_gene_related_peptid,galcanezumab,7,Undirected,Calcitonin Gene-Related Peptide Receptor,Galcanezumab
 calcitonin_gene_related_peptid,inflammatory,2,Undirected,Calcitonin Gene-Related Peptide Receptor,Inflammatory
 calcitonin_gene_related_peptid,monoclonal_antibodies,8,Undirected,Calcitonin Gene-Related Peptide Receptor,Monoclonal Antibodies
+cgrp,monoclonal_antibodies,81,Undirected,Cgrp,Monoclonal Antibodies
 disability,monoclonal_antibodies,24,Undirected,Disability,Monoclonal Antibodies
 erenumab,inflammatory,3,Undirected,Erenumab,Inflammatory
 erenumab,monoclonal_antibodies,40,Undirected,Erenumab,Monoclonal Antibodies
@@ -854,9 +888,11 @@ behavior_therapy,quality_life,4,Undirected,Behavior Therapy,Quality Life
 burden,comorbidity,2,Undirected,Burden,Comorbidity
 burden,headache_days,4,Undirected,Burden,Headache Days
 anxiety,calcitonin_gene_related,8,Undirected,Anxiety,Calcitonin Gene-Related
+anxiety,cgrp,7,Undirected,Anxiety,Cgrp
 anxiety,cost_illness,10,Undirected,Anxiety,Cost Illness
 anxiety,interictal_burden,3,Undirected,Anxiety,Interictal Burden
 calcitonin_gene_related,interictal_burden,2,Undirected,Calcitonin Gene-Related,Interictal Burden
+cgrp,interictal_burden,2,Undirected,Cgrp,Interictal Burden
 anxiety,hospitalization,8,Undirected,Anxiety,Hospitalization
 hospitalization,quality_life,10,Undirected,Hospitalization,Quality Life
 hospitalization,stress,3,Undirected,Hospitalization,Stress
@@ -1071,11 +1107,13 @@ botulinum,migraine_therapy,23,Undirected,Botulinum,Migraine Therapy
 botulinum,occipital_nerve,6,Undirected,Botulinum,Occipital Nerve
 botulinum,onabotulinumtoxina,34,Undirected,Botulinum,Onabotulinumtoxina
 botulinum,triptans,7,Undirected,Botulinum,Triptans
+botulinum_toxins,cgrp,14,Undirected,Botulinum Toxins,Cgrp
 botulinum_toxins,erenumab,5,Undirected,Botulinum Toxins,Erenumab
 botulinum_toxins,migraine_therapy,28,Undirected,Botulinum Toxins,Migraine Therapy
 botulinum_toxins,occipital_nerve,2,Undirected,Botulinum Toxins,Occipital Nerve
 botulinum_toxins,onabotulinumtoxina,35,Undirected,Botulinum Toxins,Onabotulinumtoxina
 botulinum_toxins,triptans,4,Undirected,Botulinum Toxins,Triptans
+calcitonin_gene_related_peptid,cgrp,27,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Cgrp
 calcitonin_gene_related_peptid,disability,8,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Disability
 calcitonin_gene_related_peptid,erenumab,24,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Erenumab
 calcitonin_gene_related_peptid,migraine_therapy,8,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Migraine Therapy
@@ -1083,6 +1121,9 @@ calcitonin_gene_related_peptid,onabotulinumtoxina,3,Undirected,Calcitonin Gene-R
 calcitonin_gene_related_peptid,quality_life,13,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Quality Life
 calcitonin_gene_related_peptid,treatment_outcome,18,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Treatment Outcome
 calcitonin_gene_related_peptid,triptans,6,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Triptans
+cgrp,occipital_nerve,4,Undirected,Cgrp,Occipital Nerve
+cgrp,onabotulinumtoxina,6,Undirected,Cgrp,Onabotulinumtoxina
+cgrp,triptans,18,Undirected,Cgrp,Triptans
 disability,migraine_therapy,62,Undirected,Disability,Migraine Therapy
 disability,onabotulinumtoxina,14,Undirected,Disability,Onabotulinumtoxina
 erenumab,onabotulinumtoxina,7,Undirected,Erenumab,Onabotulinumtoxina
@@ -1112,6 +1153,7 @@ cost_illness,prophylactic_treatment,2,Undirected,Cost Illness,Prophylactic Treat
 depression,disease_burden,4,Undirected,Depression,Disease Burden
 depression,prophylactic_treatment,2,Undirected,Depression,Prophylactic Treatment
 calcitonin_gene_related,calcitonin_gene_related_peptid,18,Undirected,Calcitonin Gene-Related,Calcitonin Gene-Related Peptide Receptor Dosage
+calcitonin_gene_related_peptid,cgrp,16,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Cgrp
 calcitonin_gene_related_peptid,monoclonal_antibodies,10,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Monoclonal Antibodies
 calcitonin_gene_related_peptid,quality_life,6,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Quality Life
 cost_illness,monoclonal_antibodies,2,Undirected,Cost Illness,Monoclonal Antibodies
@@ -1166,6 +1208,8 @@ disability,manual_therapy,7,Undirected,Disability,Manual Therapy
 calcitonin_gene_related,health_related_quality_life,4,Undirected,Calcitonin Gene-Related,Health-Related Quality Life
 calcitonin_gene_related_peptid,monoclonal_antibodies,47,Undirected,Calcitonin Gene-Related Peptide,Monoclonal Antibodies
 calcitonin_gene_related_peptid,monthly_migraine_days,12,Undirected,Calcitonin Gene-Related Peptide,Monthly Migraine Days
+cgrp,health_related_quality_life,4,Undirected,Cgrp,Health-Related Quality Life
+cgrp,monthly_migraine_days,27,Undirected,Cgrp,Monthly Migraine Days
 disability,health_related_quality_life,10,Undirected,Disability,Health-Related Quality Life
 erenumab,monthly_migraine_days,23,Undirected,Erenumab,Monthly Migraine Days
 galcanezumab,monthly_migraine_days,10,Undirected,Galcanezumab,Monthly Migraine Days
@@ -1284,6 +1328,7 @@ acupuncture_therapy,headache_days,7,Undirected,Acupuncture Therapy,Headache Days
 anti_cgrp_monoclonal_antibodie,botulinum,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Botulinum
 anti_cgrp_monoclonal_antibodie,botulinum_toxins,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Botulinum Toxins
 anti_cgrp_monoclonal_antibodie,calcitonin_gene_related,4,Undirected,Anti-Cgrp Monoclonal Antibodies,Calcitonin Gene-Related
+anti_cgrp_monoclonal_antibodie,cgrp,5,Undirected,Anti-Cgrp Monoclonal Antibodies,Cgrp
 anti_cgrp_monoclonal_antibodie,disability,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Disability
 anti_cgrp_monoclonal_antibodie,drug_therapy,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Drug Therapy
 anti_cgrp_monoclonal_antibodie,erenumab,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Erenumab
@@ -1302,6 +1347,7 @@ botulinum_toxins,fremanezumab,4,Undirected,Botulinum Toxins,Fremanezumab
 botulinum_toxins,monoclonal_antibodies,10,Undirected,Botulinum Toxins,Monoclonal Antibodies
 calcitonin_gene_related,drug_therapy,14,Undirected,Calcitonin Gene-Related,Drug Therapy
 calcitonin_gene_related,onabotulinumtoxina,4,Undirected,Calcitonin Gene-Related,Onabotulinumtoxina
+cgrp,drug_therapy,13,Undirected,Cgrp,Drug Therapy
 disability,drug_therapy,6,Undirected,Disability,Drug Therapy
 drug_therapy,erenumab,4,Undirected,Drug Therapy,Erenumab
 drug_therapy,fremanezumab,4,Undirected,Drug Therapy,Fremanezumab
@@ -1347,6 +1393,7 @@ anxiety,preventive_treatment,5,Undirected,Anxiety,Preventive Treatment
 depression,preventive_treatment,4,Undirected,Depression,Preventive Treatment
 treatment_outcome,treatment_response,3,Undirected,Treatment Outcome,Treatment Response
 calcitonin_gene_related_peptid,menstrual,2,Undirected,Calcitonin Gene-Related Peptide,Menstrual
+cgrp,menstrual,2,Undirected,Cgrp,Menstrual
 menstrual,menstrual_cycle,3,Undirected,Menstrual,Menstrual Cycle
 epilepsy,valproate,4,Undirected,Epilepsy,Valproate
 botulinum,medication_overuse_headache,9,Undirected,Botulinum,Medication Overuse Headache
@@ -1360,9 +1407,11 @@ neuromodulation,occipital_nerve_stimulation,6,Undirected,Neuromodulation,Occipit
 acupuncture,calcitonin_gene_related,7,Undirected,Acupuncture,Calcitonin Gene-Related
 acupuncture,calcitonin_gene_related_peptid,5,Undirected,Acupuncture,Calcitonin Gene-Related Peptide
 acupuncture,cerebral_blood_flow,2,Undirected,Acupuncture,Cerebral Blood Flow
+acupuncture,cgrp,9,Undirected,Acupuncture,Cgrp
 acupuncture_therapy,calcitonin_gene_related,3,Undirected,Acupuncture Therapy,Calcitonin Gene-Related
 acupuncture_therapy,calcitonin_gene_related_peptid,3,Undirected,Acupuncture Therapy,Calcitonin Gene-Related Peptide
 acupuncture_therapy,cerebral_blood_flow,2,Undirected,Acupuncture Therapy,Cerebral Blood Flow
+acupuncture_therapy,cgrp,4,Undirected,Acupuncture Therapy,Cgrp
 acupuncture_therapy,vascular,5,Undirected,Acupuncture Therapy,Vascular
 cerebral_blood_flow,quality_life,2,Undirected,Cerebral Blood Flow,Quality Life
 cerebral_blood_flow,vascular,3,Undirected,Cerebral Blood Flow,Vascular
@@ -1527,6 +1576,7 @@ calcitonin_gene_related_peptid,calcitonin_gene_related_peptid,5,Undirected,Calci
 calcitonin_gene_related_peptid,cluster_headache,8,Undirected,Calcitonin Gene-Related Peptide,Cluster Headache
 calcitonin_gene_related_peptid,erenumab,9,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Erenumab
 calcitonin_gene_related_peptid,treatment_outcome,14,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Treatment Outcome
+cgrp,cluster_headache,12,Undirected,Cgrp,Cluster Headache
 cluster_headache,monoclonal_antibodies,8,Undirected,Cluster Headache,Monoclonal Antibodies
 anxiety,post_traumatic_stress_disorder,2,Undirected,Anxiety,Post-Traumatic Stress Disorder
 neuropathic_pain,treatment_outcome,2,Undirected,Neuropathic Pain,Treatment Outcome
@@ -1618,6 +1668,7 @@ diet_therapy,triggers,2,Undirected,Diet Therapy,Triggers
 hypertension,treatment_outcome,6,Undirected,Hypertension,Treatment Outcome
 drug_therapy,trigeminal,2,Undirected,Drug Therapy,Trigeminal
 calcitonin_gene_related,calcitonin_gene_related_dosage,3,Undirected,Calcitonin Gene-Related,Calcitonin Gene-Related Dosage
+calcitonin_gene_related_dosage,cgrp,3,Undirected,Calcitonin Gene-Related Dosage,Cgrp
 estrogen,hormonal_contraception,2,Undirected,Estrogen,Hormonal Contraception
 estrogen,ischemic_stroke,2,Undirected,Estrogen,Ischemic Stroke
 estrogen,stroke_risk,2,Undirected,Estrogen,Stroke Risk
@@ -1639,6 +1690,7 @@ hemorrhagic_stroke,stroke,3,Undirected,Hemorrhagic Stroke,Stroke
 hemorrhagic_stroke,vascular,2,Undirected,Hemorrhagic Stroke,Vascular
 ischemic_stroke,triptans,2,Undirected,Ischemic Stroke,Triptans
 anti_inflammatory_dosage,calcitonin_gene_related,2,Undirected,Anti-Inflammatory Dosage,Calcitonin Gene-Related
+anti_inflammatory_dosage,cgrp,2,Undirected,Anti-Inflammatory Dosage,Cgrp
 anti_inflammatory_dosage,inflammatory,3,Undirected,Anti-Inflammatory Dosage,Inflammatory
 anti_inflammatory_dosage,oxidative_stress,2,Undirected,Anti-Inflammatory Dosage,Oxidative Stress
 anti_inflammatory_dosage,quality_life,2,Undirected,Anti-Inflammatory Dosage,Quality Life
@@ -1646,6 +1698,8 @@ anti_inflammatory_dosage,stress,2,Undirected,Anti-Inflammatory Dosage,Stress
 anti_inflammatory_dosage,treatment_outcome,2,Undirected,Anti-Inflammatory Dosage,Treatment Outcome
 calcitonin_gene_related,oxidative_stress,3,Undirected,Calcitonin Gene-Related,Oxidative Stress
 calcitonin_gene_related,stress,6,Undirected,Calcitonin Gene-Related,Stress
+cgrp,oxidative_stress,2,Undirected,Cgrp,Oxidative Stress
+cgrp,stress,4,Undirected,Cgrp,Stress
 dietary,inflammatory,2,Undirected,Dietary,Inflammatory
 dietary,oxidative_stress,2,Undirected,Dietary,Oxidative Stress
 inflammatory,oxidative_stress,4,Undirected,Inflammatory,Oxidative Stress
@@ -1746,6 +1800,8 @@ calcitonin_gene_related_use,headache_days,4,Undirected,Calcitonin Gene-Related U
 calcitonin_gene_related_use,quality_life,11,Undirected,Calcitonin Gene-Related Use,Quality Life
 calcitonin_gene_related_use,therapy,2,Undirected,Calcitonin Gene-Related Use,Therapy
 calcitonin_gene_related_use,treatment_outcome,4,Undirected,Calcitonin Gene-Related Use,Treatment Outcome
+cgrp,neurogenic_inflammation,7,Undirected,Cgrp,Neurogenic Inflammation
+cgrp,onabotulinum_toxin,2,Undirected,Cgrp,Onabotulinum Toxin
 headache_days,neurogenic_inflammation,3,Undirected,Headache Days,Neurogenic Inflammation
 headache_days,onabotulinum_toxin,2,Undirected,Headache Days,Onabotulinum Toxin
 inflammatory,neurogenic_inflammation,5,Undirected,Inflammatory,Neurogenic Inflammation
@@ -1757,12 +1813,14 @@ onabotulinum_toxin,quality_life,2,Undirected,Onabotulinum Toxin,Quality Life
 onabotulinum_toxin,treatment_outcome,3,Undirected,Onabotulinum Toxin,Treatment Outcome
 onabotulinum_toxin,triptans,2,Undirected,Onabotulinum Toxin,Triptans
 calcitonin_gene_related,cluster_therapy,2,Undirected,Calcitonin Gene-Related,Cluster Therapy
+cgrp,cluster_therapy,2,Undirected,Cgrp,Cluster Therapy
 cluster_headache,cluster_therapy,3,Undirected,Cluster Headache,Cluster Therapy
 cluster_headache,fremanezumab,5,Undirected,Cluster Headache,Fremanezumab
 cluster_headache,galcanezumab,7,Undirected,Cluster Headache,Galcanezumab
 cluster_therapy,galcanezumab,2,Undirected,Cluster Therapy,Galcanezumab
 anxiety,health_related_quality_life,6,Undirected,Anxiety,Health-Related Quality Life
 depression,health_related_quality_life,7,Undirected,Depression,Health-Related Quality Life
+cgrp,preventive_treatment,5,Undirected,Cgrp,Preventive Treatment
 exercise,migraine_therapy,4,Undirected,Exercise,Migraine Therapy
 diet,dietary,2,Undirected,Diet,Dietary
 dietary,disability,2,Undirected,Dietary,Disability
@@ -1774,6 +1832,7 @@ botulinum_toxin_type,treatment_outcome,4,Undirected,Botulinum Toxin Type,Treatme
 botulinum_toxins,onabotulinumtoxin,3,Undirected,Botulinum Toxins,Onabotulinumtoxin
 calcitonin_gene_related,onabotulinumtoxin,3,Undirected,Calcitonin Gene-Related,Onabotulinumtoxin
 calcitonin_gene_related,prophylactic_treatment,2,Undirected,Calcitonin Gene-Related,Prophylactic Treatment
+cgrp,onabotulinumtoxin,4,Undirected,Cgrp,Onabotulinumtoxin
 monoclonal_antibodies,onabotulinumtoxin,3,Undirected,Monoclonal Antibodies,Onabotulinumtoxin
 onabotulinumtoxin,quality_life,3,Undirected,Onabotulinumtoxin,Quality Life
 headache_days,preventive_treatment,5,Undirected,Headache Days,Preventive Treatment
@@ -1783,6 +1842,7 @@ monthly_migraine_days,therapy,3,Undirected,Monthly Migraine Days,Therapy
 botulinum_toxin,headache_days,5,Undirected,Botulinum Toxin,Headache Days
 amitriptyline,calcitonin_gene_related,7,Undirected,Amitriptyline,Calcitonin Gene-Related
 amitriptyline,calcitonin_gene_related_inhibi,3,Undirected,Amitriptyline,Calcitonin Gene-Related Inhibitors
+amitriptyline,cgrp,5,Undirected,Amitriptyline,Cgrp
 amitriptyline,galcanezumab,6,Undirected,Amitriptyline,Galcanezumab
 amitriptyline,valproate,8,Undirected,Amitriptyline,Valproate
 botulinum,calcitonin_gene_related_inhibi,7,Undirected,Botulinum,Calcitonin Gene-Related Inhibitors
@@ -1792,6 +1852,7 @@ calcitonin_gene_related,calcitonin_gene_related_inhibi,22,Undirected,Calcitonin 
 calcitonin_gene_related,propranolol,9,Undirected,Calcitonin Gene-Related,Propranolol
 calcitonin_gene_related,topiramate,10,Undirected,Calcitonin Gene-Related,Topiramate
 calcitonin_gene_related,valproate,4,Undirected,Calcitonin Gene-Related,Valproate
+calcitonin_gene_related_inhibi,cgrp,20,Undirected,Calcitonin Gene-Related Inhibitors,Cgrp
 calcitonin_gene_related_inhibi,galcanezumab,7,Undirected,Calcitonin Gene-Related Inhibitors,Galcanezumab
 calcitonin_gene_related_inhibi,headache_days,5,Undirected,Calcitonin Gene-Related Inhibitors,Headache Days
 calcitonin_gene_related_inhibi,propranolol,3,Undirected,Calcitonin Gene-Related Inhibitors,Propranolol
@@ -1799,6 +1860,9 @@ calcitonin_gene_related_inhibi,quality_life,4,Undirected,Calcitonin Gene-Related
 calcitonin_gene_related_inhibi,topiramate,5,Undirected,Calcitonin Gene-Related Inhibitors,Topiramate
 calcitonin_gene_related_inhibi,treatment_outcome,10,Undirected,Calcitonin Gene-Related Inhibitors,Treatment Outcome
 calcitonin_gene_related_inhibi,valproate,2,Undirected,Calcitonin Gene-Related Inhibitors,Valproate
+cgrp,propranolol,7,Undirected,Cgrp,Propranolol
+cgrp,topiramate,11,Undirected,Cgrp,Topiramate
+cgrp,valproate,2,Undirected,Cgrp,Valproate
 galcanezumab,propranolol,7,Undirected,Galcanezumab,Propranolol
 galcanezumab,topiramate,8,Undirected,Galcanezumab,Topiramate
 galcanezumab,valproate,4,Undirected,Galcanezumab,Valproate
@@ -1810,14 +1874,19 @@ calcitonin_gene_related,triptans,24,Undirected,Calcitonin Gene-Related,Triptans
 calcitonin_gene_related_peptid,triptans,9,Undirected,Calcitonin Gene-Related Peptide,Triptans
 calcitonin_gene_related_peptid,vascular,10,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Vascular
 calcitonin_gene_related,preventive_migraine_treatment,2,Undirected,Calcitonin Gene-Related,Preventive Migraine Treatment
+cgrp,preventive_migraine_treatment,2,Undirected,Cgrp,Preventive Migraine Treatment
 migraine_therapy,preventive_migraine_treatment,3,Undirected,Migraine Therapy,Preventive Migraine Treatment
 preventive_migraine_treatment,quality_life,2,Undirected,Preventive Migraine Treatment,Quality Life
 preventive_migraine_treatment,treatment_outcome,2,Undirected,Preventive Migraine Treatment,Treatment Outcome
 headache_days,presenteeism,7,Undirected,Headache Days,Presenteeism
 preventive_therapy,quality_life,3,Undirected,Preventive Therapy,Quality Life
+biofeedback,cgrp,2,Undirected,Biofeedback,Cgrp
 biofeedback,inflammatory,2,Undirected,Biofeedback,Inflammatory
 biofeedback,trigeminal,4,Undirected,Biofeedback,Trigeminal
 biofeedback,triptans,2,Undirected,Biofeedback,Triptans
+cgrp,disease_management,2,Undirected,Cgrp,Disease Management
+cgrp,mindfulness,2,Undirected,Cgrp,Mindfulness
+cgrp,trigeminal,28,Undirected,Cgrp,Trigeminal
 disease_management,inflammatory,2,Undirected,Disease Management,Inflammatory
 gepants,inflammatory,3,Undirected,Gepants,Inflammatory
 gepants,trigeminal,5,Undirected,Gepants,Trigeminal
@@ -1926,9 +1995,13 @@ disease_burden,health_related_quality_life,2,Undirected,Disease Burden,Health-Re
 central_sensitization,moh,2,Undirected,Central Sensitization,Moh
 medication_overuse_headache,quality_life,2,Undirected,Medication-Overuse Headache,Quality Life
 economic_burden,hospitalization,3,Undirected,Economic Burden,Hospitalization
+anti_cgrp,cgrp,4,Undirected,Anti-Cgrp,Cgrp
+anti_cgrp,monoclonal_antibodies,2,Undirected,Anti-Cgrp,Monoclonal Antibodies
+anti_cgrp,quality_life,3,Undirected,Anti-Cgrp,Quality Life
 botulinum,treatment,5,Undirected,Botulinum,Treatment
 burden,treatment,3,Undirected,Burden,Treatment
 burden,triptans,2,Undirected,Burden,Triptans
+cgrp,treatment,6,Undirected,Cgrp,Treatment
 migraine_therapy,treatment,8,Undirected,Migraine Therapy,Treatment
 monoclonal_antibodies,treatment,6,Undirected,Monoclonal Antibodies,Treatment
 treatment,triptans,9,Undirected,Treatment,Triptans
@@ -1991,6 +2064,8 @@ calcitonin_gene_related_peptid,nerve_stimulation,4,Undirected,Calcitonin Gene-Re
 calcitonin_gene_related_peptid,neuromodulation,3,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Neuromodulation
 calcitonin_gene_related_peptid,transcranial_magnetic,3,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Transcranial Magnetic
 calcitonin_gene_related_peptid,trigeminal,5,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Trigeminal
+cgrp,nerve_stimulation,9,Undirected,Cgrp,Nerve Stimulation
+cgrp,neuromodulation,10,Undirected,Cgrp,Neuromodulation
 cgrp_receptor,nerve_stimulation,3,Undirected,Cgrp Receptor,Nerve Stimulation
 cgrp_receptor,neuromodulation,2,Undirected,Cgrp Receptor,Neuromodulation
 cgrp_receptor,transcranial_magnetic,2,Undirected,Cgrp Receptor,Transcranial Magnetic
@@ -2053,6 +2128,7 @@ monthly_migraine_days,topiramate,5,Undirected,Monthly Migraine Days,Topiramate
 calcitonin_gene_related_peptid,disability,4,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Disability
 migraine_therapy,topiramate,10,Undirected,Migraine Therapy,Topiramate
 migraine_specific_quality_life,quality,2,Undirected,Migraine-Specific Quality Life,Quality
+cgrp,disability_evaluation,3,Undirected,Cgrp,Disability Evaluation
 disability_evaluation,erenumab,3,Undirected,Disability Evaluation,Erenumab
 disability_evaluation,migraine_therapy,5,Undirected,Disability Evaluation,Migraine Therapy
 migraine_therapy,preventive_therapy,2,Undirected,Migraine Therapy,Preventive Therapy
@@ -2076,6 +2152,7 @@ botulinum,economic_burden,3,Undirected,Botulinum,Economic Burden
 botulinum,preventive_treatment,2,Undirected,Botulinum,Preventive Treatment
 botulinum_toxins,economic_burden,2,Undirected,Botulinum Toxins,Economic Burden
 botulinum_toxins,preventive_treatment,3,Undirected,Botulinum Toxins,Preventive Treatment
+cgrp,economic_burden,6,Undirected,Cgrp,Economic Burden
 economic_burden,onabotulinumtoxina,2,Undirected,Economic Burden,Onabotulinumtoxina
 headache_days,trigeminal,6,Undirected,Headache Days,Trigeminal
 onabotulinumtoxina,preventive_treatment,2,Undirected,Onabotulinumtoxina,Preventive Treatment
@@ -2090,6 +2167,8 @@ anxiety,emergency_department,6,Undirected,Anxiety,Emergency Department
 emergency_department,health_related_quality_life,2,Undirected,Emergency Department,Health-Related Quality Life
 headache_days,treatment_failure,3,Undirected,Headache Days,Treatment Failure
 pain_management,therapy,3,Undirected,Pain Management,Therapy
+anti_cgrp,calcitonin_gene_related_peptid,2,Undirected,Anti-Cgrp,Calcitonin Gene-Related Peptide Receptor
+anti_cgrp,gepants,2,Undirected,Anti-Cgrp,Gepants
 calcitonin_gene_related_peptid,medication_overuse_headache,2,Undirected,Calcitonin Gene-Related Peptide Receptor,Medication Overuse Headache
 gepants,medication_overuse_headache,3,Undirected,Gepants,Medication Overuse Headache
 calcitonin_gene_related_peptid,calcitonin_gene_related_peptid,8,Undirected,Calcitonin Gene-Related Peptide,Calcitonin Gene-Related Peptide Receptor Use
@@ -2114,6 +2193,7 @@ migraine_therapy,relaxation,3,Undirected,Migraine Therapy,Relaxation
 calcitonin_gene_related_peptid,monthly_migraine_days,8,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Monthly Migraine Days
 erenumab,prophylactic_treatment,2,Undirected,Erenumab,Prophylactic Treatment
 monthly_migraine_days,prophylactic_treatment,3,Undirected,Monthly Migraine Days,Prophylactic Treatment
+cgrp,cortical_spreading_depression,4,Undirected,Cgrp,Cortical Spreading Depression
 cgrp_receptor,cortical_spreading_depression,2,Undirected,Cgrp Receptor,Cortical Spreading Depression
 cgrp_receptor,depression,2,Undirected,Cgrp Receptor,Depression
 cgrp_receptor,neurogenic_inflammation,3,Undirected,Cgrp Receptor,Neurogenic Inflammation
@@ -2129,6 +2209,7 @@ alzheimer,inflammatory,2,Undirected,Alzheimer,Inflammatory
 alzheimer,vascular,5,Undirected,Alzheimer,Vascular
 medication_overuse_headache,trigeminal,3,Undirected,Medication Overuse Headache,Trigeminal
 onabotulinumtoxina,topiramate,6,Undirected,Onabotulinumtoxina,Topiramate
+anti_cgrp,calcitonin_gene_related,2,Undirected,Anti-Cgrp,Calcitonin Gene-Related
 burden,economic_burden,4,Undirected,Burden,Economic Burden
 disability,medication_overuse_headache,2,Undirected,Disability,Medication-Overuse Headache
 behavior_therapy,mindfulness,3,Undirected,Behavior Therapy,Mindfulness
@@ -2157,6 +2238,7 @@ rls,treatment_outcome,4,Undirected,Rls,Treatment Outcome
 emergency_department,migraine_therapy,11,Undirected,Emergency Department,Migraine Therapy
 migraine_therapy,migraine_specific_quality_life,2,Undirected,Migraine Therapy,Migraine-Specific Quality Life
 calcitonin_gene_related,medication_overuse,3,Undirected,Calcitonin Gene-Related,Medication Overuse
+cgrp,medication_overuse,3,Undirected,Cgrp,Medication Overuse
 medication_overuse,monthly_migraine_days,2,Undirected,Medication Overuse,Monthly Migraine Days
 calcitonin_gene_related,moh,3,Undirected,Calcitonin Gene-Related,Moh
 calcitonin_gene_related_peptid,stress,2,Undirected,Calcitonin Gene-Related Peptide,Stress
@@ -2171,6 +2253,7 @@ exercise,inflammatory,4,Undirected,Exercise,Inflammatory
 oxidative_stress,trigeminal,2,Undirected,Oxidative Stress,Trigeminal
 stress,trigeminal,4,Undirected,Stress,Trigeminal
 calcitonin_gene_related_peptid,vestibular,2,Undirected,Calcitonin Gene-Related Peptide,Vestibular
+cgrp,vestibular,2,Undirected,Cgrp,Vestibular
 monoclonal_antibodies,vestibular,3,Undirected,Monoclonal Antibodies,Vestibular
 monoclonal_antibodies,vestibular_migraine,2,Undirected,Monoclonal Antibodies,Vestibular Migraine
 therapy,vestibular_migraine,2,Undirected,Therapy,Vestibular Migraine
@@ -2192,6 +2275,7 @@ galcanezumab,trigeminal,3,Undirected,Galcanezumab,Trigeminal
 disability,trigeminovascular,2,Undirected,Disability,Trigeminovascular
 calcitonin_gene_related,cost_benefit,2,Undirected,Calcitonin Gene-Related,Cost-Benefit
 calcitonin_gene_related_peptid,drug_treatment,2,Undirected,Calcitonin Gene-Related Peptide Receptor Antagonists,Drug Treatment
+cgrp,drug_treatment,3,Undirected,Cgrp,Drug Treatment
 drug_treatment,migraine_therapy,3,Undirected,Drug Treatment,Migraine Therapy
 drug_treatment,treatment_outcome,2,Undirected,Drug Treatment,Treatment Outcome
 treatment_outcome,trigger,2,Undirected,Treatment Outcome,Trigger
@@ -2213,6 +2297,7 @@ daily_functioning,monthly_migraine_days,2,Undirected,Daily Functioning,Monthly M
 daily_functioning,presenteeism,2,Undirected,Daily Functioning,Presenteeism
 daily_functioning,work_productivity,2,Undirected,Daily Functioning,Work Productivity
 monthly_migraine_days,presenteeism,2,Undirected,Monthly Migraine Days,Presenteeism
+cgrp,elimination_diet,2,Undirected,Cgrp,Elimination Diet
 cortical_spreading_depression,disability,2,Undirected,Cortical Spreading Depression,Disability
 cortical_spreading_depression,trigeminovascular,6,Undirected,Cortical Spreading Depression,Trigeminovascular
 diet,elimination_diet,3,Undirected,Diet,Elimination Diet
@@ -2255,6 +2340,7 @@ calcitonin_gene_related_peptid,cardiovascular_diseases,2,Undirected,Calcitonin G
 disease_management,treatment_outcome,2,Undirected,Disease Management,Treatment Outcome
 cluster_headache,headache_days,4,Undirected,Cluster Headache,Headache Days
 brainstem,calcitonin_gene_related,6,Undirected,Brainstem,Calcitonin Gene-Related
+brainstem,cgrp,6,Undirected,Brainstem,Cgrp
 brainstem,cgrp_receptor,2,Undirected,Brainstem,Cgrp Receptor
 brainstem,vascular,3,Undirected,Brainstem,Vascular
 calcitonin_gene_related_peptid,triptans,5,Undirected,Calcitonin Gene-Related Peptide Receptor,Triptans
@@ -2278,6 +2364,7 @@ inflammatory,insomnia,3,Undirected,Inflammatory,Insomnia
 inflammatory,propranolol,4,Undirected,Inflammatory,Propranolol
 disability_evaluation,moh,3,Undirected,Disability Evaluation,Moh
 amitriptyline,medication_overuse_headache,2,Undirected,Amitriptyline,Medication Overuse Headache
+behavior_therapy,cgrp,2,Undirected,Behavior Therapy,Cgrp
 behavior_therapy,moh,2,Undirected,Behavior Therapy,Moh
 medication_overuse,topiramate,2,Undirected,Medication Overuse,Topiramate
 medication_overuse_headache,topiramate,3,Undirected,Medication Overuse Headache,Topiramate
@@ -2297,6 +2384,7 @@ stroke_young_adults,vascular,2,Undirected,Stroke Young Adults,Vascular
 brainstem,calcitonin_gene_related_peptid,2,Undirected,Brainstem,Calcitonin Gene-Related Peptide
 brainstem,central_sensitization,4,Undirected,Brainstem,Central Sensitization
 calcitonin_gene_related,central_sensitization,4,Undirected,Calcitonin Gene-Related,Central Sensitization
+central_sensitization,cgrp,4,Undirected,Central Sensitization,Cgrp
 disability,psychological_treatment,2,Undirected,Disability,Psychological Treatment
 estrogen,menstrual_cycle,2,Undirected,Estrogen,Menstrual Cycle
 estrogens,menstrual,4,Undirected,Estrogens,Menstrual
@@ -2312,6 +2400,7 @@ vestibular_diseases,vestibular_function_tests,2,Undirected,Vestibular Diseases,V
 vestibular_function_tests,vestibular_migraine,2,Undirected,Vestibular Function Tests,Vestibular Migraine
 insomnia,sleep_quality,2,Undirected,Insomnia,Sleep Quality
 calcitonin_gene_related_peptid,vascular,3,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Vascular
+cgrp,stroke,2,Undirected,Cgrp,Stroke
 trigeminal,trigeminal_autonomic_cephalalg,2,Undirected,Trigeminal,Trigeminal Autonomic Cephalalgias
 calcitonin_gene_related,drug_treatment,3,Undirected,Calcitonin Gene-Related,Drug Treatment
 calcitonin_gene_related,trigeminal_ganglion,3,Undirected,Calcitonin Gene-Related,Trigeminal Ganglion
@@ -2371,6 +2460,7 @@ calcitonin_gene_related_inhibi,molecular_targeted_therapy,2,Undirected,Calcitoni
 calcitonin_gene_related_peptid,cgrp_receptor,3,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Cgrp Receptor
 calcitonin_gene_related_peptid,gepants,3,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Gepants
 calcitonin_gene_related_peptid,therapy,2,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Therapy
+cgrp,molecular_targeted_therapy,14,Undirected,Cgrp,Molecular Targeted Therapy
 cgrp_receptor,molecular_targeted_therapy,8,Undirected,Cgrp Receptor,Molecular Targeted Therapy
 cgrp_receptor,therapy,2,Undirected,Cgrp Receptor,Therapy
 gepants,molecular_targeted_therapy,3,Undirected,Gepants,Molecular Targeted Therapy
@@ -2444,6 +2534,7 @@ calcitonin_gene_related,neurogenic_inflammation,5,Undirected,Calcitonin Gene-Rel
 calcitonin_gene_related,vasodilation,2,Undirected,Calcitonin Gene-Related,Vasodilation
 calcitonin_gene_related_peptid,neurogenic_inflammation,3,Undirected,Calcitonin Gene-Related Peptide,Neurogenic Inflammation
 calcitonin_gene_related_peptid,vasodilation,2,Undirected,Calcitonin Gene-Related Peptide,Vasodilation
+cgrp,vasodilation,2,Undirected,Cgrp,Vasodilation
 amitriptyline,exercise,2,Undirected,Amitriptyline,Exercise
 exercise,topiramate,2,Undirected,Exercise,Topiramate
 acute_treatment,vascular,3,Undirected,Acute Treatment,Vascular
@@ -2517,6 +2608,8 @@ transcutaneous_electric_nerve_,trigeminal,9,Undirected,Transcutaneous Electric N
 transcutaneous_electric_nerve_,trigeminal_nerve,6,Undirected,Transcutaneous Electric Nerve Stimulation,Trigeminal Nerve
 trigeminal,trigeminal_nerve,13,Undirected,Trigeminal,Trigeminal Nerve
 calcitonin_gene_related,neuroinflammation,2,Undirected,Calcitonin Gene-Related,Neuroinflammation
+cgrp,neuroinflammation,3,Undirected,Cgrp,Neuroinflammation
+cgrp,trigeminal_ganglion,3,Undirected,Cgrp,Trigeminal Ganglion
 depression,neuroinflammation,2,Undirected,Depression,Neuroinflammation
 neuroinflammation,stress,5,Undirected,Neuroinflammation,Stress
 neuroinflammation,trigeminal,4,Undirected,Neuroinflammation,Trigeminal
@@ -2592,6 +2685,7 @@ electric_stimulation_therapy,magnetic_field_therapy,2,Undirected,Electric Stimul
 magnetic_field_therapy,neuromodulation,2,Undirected,Magnetic Field Therapy,Neuromodulation
 headache_days,transcutaneous_electric_nerve_,6,Undirected,Headache Days,Transcutaneous Electric Nerve Stimulation
 pain_management,transcutaneous_electric_nerve_,6,Undirected,Pain Management,Transcutaneous Electric Nerve Stimulation
+cgrp,pain_management,5,Undirected,Cgrp,Pain Management
 dietary_supplements,drug_therapy,3,Undirected,Dietary Supplements,Drug Therapy
 pain_management,treatment,3,Undirected,Pain Management,Treatment
 cgrp_receptor_antagonists,triptans,2,Undirected,Cgrp Receptor Antagonists,Triptans
@@ -2635,6 +2729,7 @@ acupuncture,yoga,2,Undirected,Acupuncture,Yoga
 biofeedback,diet,4,Undirected,Biofeedback,Diet
 cluster_headache,diet,3,Undirected,Cluster Headache,Diet
 anti_inflammatory_agents,attack_treatment,2,Undirected,Anti-Inflammatory Agents,Attack Treatment
+anti_inflammatory_agents,cgrp,3,Undirected,Anti-Inflammatory Agents,Cgrp
 anti_inflammatory_agents,nerve_stimulation,3,Undirected,Anti-Inflammatory Agents,Nerve Stimulation
 attack_treatment,inflammatory,2,Undirected,Attack Treatment,Inflammatory
 attack_treatment,nerve_stimulation,2,Undirected,Attack Treatment,Nerve Stimulation
@@ -2685,6 +2780,7 @@ acupuncture_moxibustion,acupuncture_points,3,Undirected,Acupuncture Moxibustion,
 acupuncture_moxibustion,acupuncture_therapy,6,Undirected,Acupuncture Moxibustion,Acupuncture Therapy
 physical_therapy_modalities,vestibular,4,Undirected,Physical Therapy Modalities,Vestibular
 physical_therapy_modalities,vestibular_migraine,3,Undirected,Physical Therapy Modalities,Vestibular Migraine
+cgrp,physical_therapy,2,Undirected,Cgrp,Physical Therapy
 migraine_therapy,phytotherapy,3,Undirected,Migraine Therapy,Phytotherapy
 brainstem,nerve_stimulation,2,Undirected,Brainstem,Nerve Stimulation
 brainstem,trigeminal,5,Undirected,Brainstem,Trigeminal
@@ -2715,6 +2811,7 @@ calcitonin_gene_related_peptid,preventive_treatment,2,Undirected,Calcitonin Gene
 erenumab,preventive_treatment,2,Undirected,Erenumab,Preventive Treatment
 fremanezumab,preventive_treatment,3,Undirected,Fremanezumab,Preventive Treatment
 calcitonin_gene_related,relaxation,3,Undirected,Calcitonin Gene-Related,Relaxation
+cgrp,relaxation,2,Undirected,Cgrp,Relaxation
 gepants,trigeminovascular,2,Undirected,Gepants,Trigeminovascular
 relaxation,trigeminal,4,Undirected,Relaxation,Trigeminal
 diet,mediterranean_diet,4,Undirected,Diet,Mediterranean Diet
@@ -2731,6 +2828,8 @@ calcitonin_gene_related,electric_stimulation_therapy,4,Undirected,Calcitonin Gen
 calcitonin_gene_related,vagus_nerve_stimulation,3,Undirected,Calcitonin Gene-Related,Vagus Nerve Stimulation
 calcitonin_gene_related_peptid,electric_stimulation_therapy,2,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Electric Stimulation Therapy
 calcitonin_gene_related_peptid,nerve_stimulation,3,Undirected,Calcitonin Gene-Related Peptide Receptor Use,Nerve Stimulation
+cgrp,electric_stimulation_therapy,4,Undirected,Cgrp,Electric Stimulation Therapy
+cgrp,vagus_nerve_stimulation,2,Undirected,Cgrp,Vagus Nerve Stimulation
 electric_stimulation_therapy,vagus_nerve_stimulation,3,Undirected,Electric Stimulation Therapy,Vagus Nerve Stimulation
 monthly_migraine_days,stress,2,Undirected,Monthly Migraine Days,Stress
 acupuncture,trigeminovascular,2,Undirected,Acupuncture,Trigeminovascular
@@ -2801,6 +2900,7 @@ radiotherapy,stroke_like_migraine_attacks_a,2,Undirected,Radiotherapy,Stroke-Lik
 occipital_nerve_block,pain_management,2,Undirected,Occipital Nerve Block,Pain Management
 acupuncture_points,calcitonin_gene_related,4,Undirected,Acupuncture Points,Calcitonin Gene-Related
 acupuncture_points,calcitonin_gene_related_peptid,2,Undirected,Acupuncture Points,Calcitonin Gene-Related Peptide
+acupuncture_points,cgrp,4,Undirected,Acupuncture Points,Cgrp
 acute_treatment,pain_management,4,Undirected,Acute Treatment,Pain Management
 electric_stimulation_therapy,non_pharmacological_treatment,2,Undirected,Electric Stimulation Therapy,Non-Pharmacological Treatment
 neuromodulation,non_pharmacological_treatment,3,Undirected,Neuromodulation,Non-Pharmacological Treatment
@@ -2843,6 +2943,7 @@ dietary_supplements,electric_stimulation_therapy,3,Undirected,Dietary Supplement
 acupuncture_therapy,menstrual,2,Undirected,Acupuncture Therapy,Menstrual
 acupuncture_points,electroacupuncture,8,Undirected,Acupuncture Points,Electroacupuncture
 calcitonin_gene_related,electroacupuncture,4,Undirected,Calcitonin Gene-Related,Electroacupuncture
+cgrp,electroacupuncture,4,Undirected,Cgrp,Electroacupuncture
 phytotherapy,treatment_outcome,2,Undirected,Phytotherapy,Treatment Outcome
 chronic_pain,treatment,2,Undirected,Chronic Pain,Treatment
 cgrp_receptor,cluster_headache,3,Undirected,Cgrp Receptor,Cluster Headache
@@ -2867,6 +2968,7 @@ botulinum,gepants,4,Undirected,Botulinum,Gepants
 botulinum_toxins,gepants,2,Undirected,Botulinum Toxins,Gepants
 calcitonin_gene_related,cgrp_receptor_antagonists,2,Undirected,Calcitonin Gene-Related,Cgrp Receptor Antagonists
 calcitonin_gene_related_peptid,vascular,2,Undirected,Calcitonin Gene-Related Peptide Receptor Dosage,Vascular
+cgrp,cgrp_receptor_antagonists,2,Undirected,Cgrp,Cgrp Receptor Antagonists
 cgrp_receptor_antagonists,erenumab,2,Undirected,Cgrp Receptor Antagonists,Erenumab
 cgrp_receptor_antagonists,migraine_therapy,2,Undirected,Cgrp Receptor Antagonists,Migraine Therapy
 cgrp_receptor_antagonists,onabotulinumtoxina,2,Undirected,Cgrp Receptor Antagonists,Onabotulinumtoxina
@@ -2912,6 +3014,7 @@ cortical_spreading_depression,ischemic_stroke,2,Undirected,Cortical Spreading De
 epilepsy,ischemic_stroke,2,Undirected,Epilepsy,Ischemic Stroke
 exercise_therapy,physical_therapy_modalities,3,Undirected,Exercise Therapy,Physical Therapy Modalities
 biofeedback,calcitonin_gene_related,2,Undirected,Biofeedback,Calcitonin Gene-Related
+cgrp,transcranial_magnetic_stimulat,2,Undirected,Cgrp,Transcranial Magnetic Stimulation
 cognitive_behavioral_therapy,electric_stimulation_therapy,2,Undirected,Cognitive Behavioral Therapy,Electric Stimulation Therapy
 cognitive_behavioral_therapy,trigeminal,2,Undirected,Cognitive Behavioral Therapy,Trigeminal
 electric_stimulation_therapy,lasmiditan,2,Undirected,Electric Stimulation Therapy,Lasmiditan
@@ -2930,6 +3033,7 @@ botulinum_toxin,galcanezumab,2,Undirected,Botulinum Toxin,Galcanezumab
 lasmiditan,medication_overuse_headache,2,Undirected,Lasmiditan,Medication Overuse Headache
 lasmiditan,propranolol,2,Undirected,Lasmiditan,Propranolol
 calcitonin_gene_related,cgrp_monoclonal_antibodies,2,Undirected,Calcitonin Gene-Related,Cgrp Monoclonal Antibodies
+cgrp,cgrp_monoclonal_antibodies,2,Undirected,Cgrp,Cgrp Monoclonal Antibodies
 acupuncture,combined_modality_therapy,3,Undirected,Acupuncture,Combined Modality Therapy
 combined_modality_therapy,vestibular,2,Undirected,Combined Modality Therapy,Vestibular
 combined_modality_therapy,vestibular_migraine,2,Undirected,Combined Modality Therapy,Vestibular Migraine
@@ -2974,6 +3078,7 @@ anxiety,transcranial_magnetic,3,Undirected,Anxiety,Transcranial Magnetic
 anxiety,transcranial_magnetic_stimulat,2,Undirected,Anxiety,Transcranial Magnetic Stimulation
 acute_migraine_treatment,trigeminal_nerve,2,Undirected,Acute Migraine Treatment,Trigeminal Nerve
 calcitonin_gene_related_peptid,calcitonin_gene_related_peptid,2,Undirected,Calcitonin Gene-Related Peptide,Calcitonin Gene-Related Peptide Antagonists
+calcitonin_gene_related_peptid,cgrp,2,Undirected,Calcitonin Gene-Related Peptide Antagonists,Cgrp
 calcitonin_gene_related_peptid,monoclonal_antibodies,2,Undirected,Calcitonin Gene-Related Peptide Antagonists,Monoclonal Antibodies
 menstrual,triptans,2,Undirected,Menstrual,Triptans
 cognitive_behavioral_therapy,physical_therapy_modalities,2,Undirected,Cognitive Behavioral Therapy,Physical Therapy Modalities

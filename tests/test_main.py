@@ -12,7 +12,6 @@ Usage:
 import pytest
 import pandas as pd
 import sys
-import os
 from pathlib import Path
 
 # Add project root to path
@@ -20,7 +19,7 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root / "english_version" / "scripts"))
 
 # Import the class after path is set
-from main import PubMedRefinedNetworkV2
+from main import PubMedRefinedNetworkV2  # noqa: E402
 
 
 class TestPubMedRefinedNetworkV2:
@@ -156,7 +155,7 @@ class TestPubMedRefinedNetworkV2:
         tags = "Migraine; Depression; Anxiety"
         terms = network_builder.extract_high_quality_terms(tags)
         assert len(terms) > 0
-        assert "Migraine" in terms
+        assert "Anxiety" in terms
 
     def test_extract_high_quality_terms_with_abstract(self, network_builder):
         """Test term extraction including abstract text"""
@@ -168,9 +167,9 @@ class TestPubMedRefinedNetworkV2:
 
     def test_extract_high_quality_terms_filters_research(self, network_builder):
         """Test that research methodology terms are filtered"""
-        tags = "Migraine; Randomized Controlled Trial; Meta Analysis"
+        tags = "Stress; Randomized Controlled Trial; Meta Analysis"
         terms = network_builder.extract_high_quality_terms(tags)
-        assert "Migraine" in terms
+        assert "Stress" in terms
         # Research terms should be filtered
         assert not any("trial" in t.lower() or "meta" in t.lower() for t in terms)
 

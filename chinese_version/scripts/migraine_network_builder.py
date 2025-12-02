@@ -3,7 +3,6 @@
 
 import pandas as pd
 import re
-import ast
 from collections import defaultdict, Counter
 import itertools
 import os
@@ -242,7 +241,7 @@ class PubMedRefinedNetwork:
                         if len(df.columns) > 3:
                             print(f"成功读取: {encoding}, 分隔符: '{sep}'")
                             return df
-                    except:
+                    except Exception:
                         continue
             return pd.read_csv(file_path, engine="python", on_bad_lines="skip")
         except Exception as e:
@@ -348,7 +347,7 @@ class PubMedRefinedNetwork:
 
         return list(high_quality_terms)
 
-    def build_refined_network(self, df, min_frequency=3, min_weight=2):
+    def build_refined_network(self, df, min_frequency=3, min_weight=2):  # noqa: C901
         """构建精炼网络"""
         print("构建精炼网络（大幅减少节点数量）...")
 
@@ -445,13 +444,13 @@ class PubMedRefinedNetwork:
         print("=" * 60)
 
         # 基本统计
-        print(f"网络规模:")
+        print("网络规模:")
         print(f"  - 节点数: {len(nodes_df):,} (原3,645个)")
         print(f"  - 边数: {len(edges_df):,} (原181,245条)")
         print(f"  - 网络密度: {len(edges_df) / (len(nodes_df) * (len(nodes_df) - 1) / 2):.6f}")
 
         # 类别分布
-        print(f"\n节点分类分布:")
+        print("\n节点分类分布:")
         category_stats = nodes_df["Category"].value_counts()
         for category, count in category_stats.items():
             desc = self.refined_categories.get(category, {}).get("description", "其他")
@@ -459,7 +458,7 @@ class PubMedRefinedNetwork:
             print(f"  - {desc}: {count}节点 ({percentage:.1f}%)")
 
         # 高频术语
-        print(f"\nTop 20 高频术语:")
+        print("\nTop 20 高频术语:")
         top_terms = nodes_df.nlargest(20, "Frequency")
         for idx, row in top_terms.iterrows():
             desc = self.refined_categories.get(row["Category"], {}).get("description", "其他")
@@ -467,7 +466,7 @@ class PubMedRefinedNetwork:
 
         # 强关联
         if not edges_df.empty:
-            print(f"\nTop 10 强共现关系:")
+            print("\nTop 10 强共现关系:")
             top_edges = edges_df.nlargest(10, "Weight")
             for idx, row in top_edges.iterrows():
                 print(
@@ -479,11 +478,15 @@ def main():
     """主函数"""
     converter = PubMedRefinedNetwork()
 
-    # 文件路径
-    file_path = r"C:\Users\29385\Desktop\大三\复杂网络\偏头痛2\PubMed.csv"
+    # File path - Relative to script location
+    file_path = r"../data/input/PubMed.csv"
 
     if not os.path.exists(file_path):
-        print(f"文件不存在: {file_path}")
+        # Fallback if running from root
+        file_path = r"chinese_version/data/input/PubMed.csv"
+
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
         return
 
     # 加载数据
@@ -526,7 +529,7 @@ def main():
         os.path.join(output_dir, "detailed_refined_edges.csv"), index=False, encoding="utf-8-sig"
     )
 
-    print(f"\n✅ 精炼网络文件已生成！")
+    print("\n✅ 精炼网络文件已生成！")
     print(f"📊 预期网络规模: {len(nodes_df)}节点, {len(edges_df)}边")
     print(
         f"📉 规模减少: 节点-{(3645 - len(nodes_df)) / 3645 * 100:.1f}%, 边-{(181245 - len(edges_df)) / 181245 * 100:.1f}%"
@@ -538,7 +541,7 @@ def main():
 
     布局算法: ForceAtlas 2
     - 斥力强度: 2000 (原1000)
-    - 重力: 50 (原5) 
+    - 重力: 50 (原5)
     - 防止重叠: ✅ 开启
     - 边权重影响: 1.0
     - 运行时间: 3-5分钟

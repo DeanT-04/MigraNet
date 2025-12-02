@@ -1,101 +1,103 @@
 ﻿Id,Label,Category,Frequency,Category_Description
-depression,Depression,true_comorbidities,449,True Comorbidities
-comorbidity,Comorbidity,true_comorbidities,473,True Comorbidities
-epilepsy,Epilepsy,true_comorbidities,108,True Comorbidities
 quality_life,Quality Life,social_impact,744,Social Impact
 anxiety,Anxiety,true_comorbidities,349,True Comorbidities
+epilepsy,Epilepsy,true_comorbidities,108,True Comorbidities
+comorbidity,Comorbidity,true_comorbidities,473,True Comorbidities
+depression,Depression,true_comorbidities,449,True Comorbidities
 vascular,Vascular,trigger_mechanisms,333,Trigger Mechanisms
-disability,Disability,social_impact,551,Social Impact
-cardiovascular,Cardiovascular,trigger_mechanisms,42,Trigger Mechanisms
 headache_related_disability,Headache-Related Disability,social_impact,8,Social Impact
+disability,Disability,social_impact,551,Social Impact
 cost_illness,Cost Illness,social_impact,54,Social Impact
-fremanezumab,Fremanezumab,interventions,76,Interventions
-erenumab,Erenumab,interventions,93,Interventions
-calcitonin_gene_related,Calcitonin Gene-Related,interventions,263,Interventions
-lasmiditan,Lasmiditan,interventions,23,Interventions
-calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide,interventions,130,Interventions
+cardiovascular,Cardiovascular,trigger_mechanisms,42,Trigger Mechanisms
 galcanezumab,Galcanezumab,interventions,79,Interventions
+calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide,interventions,130,Interventions
+erenumab,Erenumab,interventions,93,Interventions
+cgrp,Cgrp,interventions,234,Interventions
+fremanezumab,Fremanezumab,interventions,76,Interventions
+lasmiditan,Lasmiditan,interventions,23,Interventions
+calcitonin_gene_related,Calcitonin Gene-Related,interventions,263,Interventions
 stress,Stress,trigger_mechanisms,200,Trigger Mechanisms
 asthma,Asthma,true_comorbidities,35,True Comorbidities
-relaxation,Relaxation,interventions,46,Interventions
 neurogenic_inflammation,Neurogenic Inflammation,trigger_mechanisms,13,Trigger Mechanisms
-parkinson,Parkinson,true_comorbidities,15,True Comorbidities
+relaxation,Relaxation,interventions,46,Interventions
 diet,Diet,interventions,88,Interventions
-alzheimer,Alzheimer,true_comorbidities,16,True Comorbidities
+parkinson,Parkinson,true_comorbidities,15,True Comorbidities
 ketogenic_diet,Ketogenic Diet,interventions,16,Interventions
-cluster_headache,Cluster Headache,true_comorbidities,80,True Comorbidities
+alzheimer,Alzheimer,true_comorbidities,16,True Comorbidities
 tension_type_headache,Tension Type Headache,true_comorbidities,18,True Comorbidities
-pfo_closure,Pfo Closure,interventions,26,Interventions
-patent_foramen_ovale,Patent Foramen Ovale,true_comorbidities,41,True Comorbidities
-inflammatory,Inflammatory,trigger_mechanisms,150,Trigger Mechanisms
+cluster_headache,Cluster Headache,true_comorbidities,80,True Comorbidities
+hormonal,Hormonal,trigger_mechanisms,46,Trigger Mechanisms
 cortical_spreading_depression,Cortical Spreading Depression,trigger_mechanisms,35,Trigger Mechanisms
-hypertension,Hypertension,true_comorbidities,108,True Comorbidities
 stroke,Stroke,true_comorbidities,209,True Comorbidities
 estrogen,Estrogen,trigger_mechanisms,31,Trigger Mechanisms
-hormonal,Hormonal,trigger_mechanisms,46,Trigger Mechanisms
+hypertension,Hypertension,true_comorbidities,108,True Comorbidities
+pfo_closure,Pfo Closure,interventions,26,Interventions
+inflammatory,Inflammatory,trigger_mechanisms,150,Trigger Mechanisms
+patent_foramen_ovale,Patent Foramen Ovale,true_comorbidities,41,True Comorbidities
 economic_burden,Economic Burden,social_impact,40,Social Impact
 sleep_deprivation,Sleep Deprivation,trigger_mechanisms,7,Trigger Mechanisms
-monthly_migraine_days,Monthly Migraine Days,social_impact,89,Social Impact
 treatment_outcome,Treatment Outcome,interventions,621,Interventions
+monthly_migraine_days,Monthly Migraine Days,social_impact,89,Social Impact
 physical_therapy_modalities,Physical Therapy Modalities,interventions,30,Interventions
-combined_modality_therapy,Combined Modality Therapy,interventions,40,Interventions
+physical_therapy,Physical Therapy,interventions,30,Interventions
 trigeminal,Trigeminal,trigger_mechanisms,117,Trigger Mechanisms
 exercise,Exercise,interventions,92,Interventions
-physical_therapy,Physical Therapy,interventions,30,Interventions
+combined_modality_therapy,Combined Modality Therapy,interventions,40,Interventions
 headache_days,Headache Days,social_impact,241,Social Impact
 disability_evaluation,Disability Evaluation,social_impact,73,Social Impact
 physiotherapy,Physiotherapy,interventions,11,Interventions
-menstrual_migraine,Menstrual Migraine,trigger_mechanisms,11,Trigger Mechanisms
-menopause,Menopause,trigger_mechanisms,17,Trigger Mechanisms
-menstrual,Menstrual,trigger_mechanisms,39,Trigger Mechanisms
 hormone_replacement_therapy,Hormone Replacement Therapy,interventions,3,Interventions
+menstrual_migraine,Menstrual Migraine,trigger_mechanisms,11,Trigger Mechanisms
+menstrual,Menstrual,trigger_mechanisms,39,Trigger Mechanisms
+menopause,Menopause,trigger_mechanisms,17,Trigger Mechanisms
 disease_management,Disease Management,interventions,18,Interventions
+medication_overuse,Medication Overuse,interventions,18,Interventions
 quality,Quality,social_impact,49,Social Impact
 medication_overuse_headache,Medication Overuse Headache,true_comorbidities,61,True Comorbidities
-medication_overuse,Medication Overuse,interventions,18,Interventions
 acupuncture,Acupuncture,interventions,171,Interventions
-mindfulness,Mindfulness,interventions,31,Interventions
 insomnia,Insomnia,true_comorbidities,53,True Comorbidities
+mindfulness,Mindfulness,interventions,31,Interventions
 central_sensitization,Central Sensitization,trigger_mechanisms,35,Trigger Mechanisms
-social_stigma,Social Stigma,social_impact,18,Social Impact
 stigma,Stigma,social_impact,31,Social Impact
-therapy,Therapy,interventions,81,Interventions
+social_stigma,Social Stigma,social_impact,18,Social Impact
 transcranial_magnetic,Transcranial Magnetic,interventions,79,Interventions
 botulinum,Botulinum,interventions,114,Interventions
+therapy,Therapy,interventions,81,Interventions
 migraine_treatment,Migraine Treatment,interventions,18,Interventions
 circadian_rhythm,Circadian Rhythm,true_comorbidities,9,True Comorbidities
 restless_legs_syndrome,Restless Legs Syndrome,true_comorbidities,17,True Comorbidities
 nerve_stimulation,Nerve Stimulation,interventions,90,Interventions
-pathophysiology,Pathophysiology,trigger_mechanisms,6,Trigger Mechanisms
 treatment,Treatment,interventions,52,Interventions
+pathophysiology,Pathophysiology,trigger_mechanisms,6,Trigger Mechanisms
 cognitive_behavioral_therapy,Cognitive Behavioral Therapy,interventions,31,Interventions
-botulinum_toxins,Botulinum Toxins,interventions,105,Interventions
-biofeedback,Biofeedback,interventions,40,Interventions
-vagus_nerve_stimulation,Vagus Nerve Stimulation,interventions,44,Interventions
-chronic_pain,Chronic Pain,true_comorbidities,66,True Comorbidities
 topiramate,Topiramate,interventions,73,Interventions
-behavioral_treatment,Behavioral Treatment,interventions,4,Interventions
+vagus_nerve_stimulation,Vagus Nerve Stimulation,interventions,44,Interventions
+biofeedback,Biofeedback,interventions,40,Interventions
+botulinum_toxins,Botulinum Toxins,interventions,105,Interventions
+chronic_pain,Chronic Pain,true_comorbidities,66,True Comorbidities
 relaxation_therapy,Relaxation Therapy,interventions,9,Interventions
+behavioral_treatment,Behavioral Treatment,interventions,4,Interventions
 migraine_therapy,Migraine Therapy,interventions,323,Interventions
-irritable_bowel,Irritable Bowel,true_comorbidities,24,True Comorbidities
 irritable_bowel_syndrome,Irritable Bowel Syndrome,true_comorbidities,10,True Comorbidities
+irritable_bowel,Irritable Bowel,true_comorbidities,24,True Comorbidities
 fibromyalgia,Fibromyalgia,true_comorbidities,45,True Comorbidities
 phytotherapy,Phytotherapy,interventions,13,Interventions
-brainstem,Brainstem,trigger_mechanisms,21,Trigger Mechanisms
-neuropathic_pain,Neuropathic Pain,true_comorbidities,10,True Comorbidities
 management,Management,interventions,7,Interventions
+neuropathic_pain,Neuropathic Pain,true_comorbidities,10,True Comorbidities
+brainstem,Brainstem,trigger_mechanisms,21,Trigger Mechanisms
 calcitonin_gene_related_use,Calcitonin Gene-Related Use,interventions,13,Interventions
 trigeminovascular,Trigeminovascular,trigger_mechanisms,34,Trigger Mechanisms
 restless_legs,Restless Legs,true_comorbidities,17,True Comorbidities
 tth,Tth,true_comorbidities,58,True Comorbidities
 psychiatric_comorbidity,Psychiatric Comorbidity,true_comorbidities,5,True Comorbidities
 vestibular_migraine,Vestibular Migraine,trigger_mechanisms,55,Trigger Mechanisms
-vestibular,Vestibular,trigger_mechanisms,82,Trigger Mechanisms
 comorbidities,Comorbidities,true_comorbidities,17,True Comorbidities
+vestibular,Vestibular,trigger_mechanisms,82,Trigger Mechanisms
 light_sensitivity,Light Sensitivity,trigger_mechanisms,5,Trigger Mechanisms
 healthcare_cost,Healthcare Cost,social_impact,12,Social Impact
-valproate,Valproate,interventions,23,Interventions
 propranolol,Propranolol,interventions,40,Interventions
+valproate,Valproate,interventions,23,Interventions
+cgrp_antagonists,Cgrp Antagonists,interventions,3,Interventions
 triptans,Triptans,interventions,133,Interventions
 calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide Receptor Use,interventions,33,Interventions
 moh,Moh,true_comorbidities,39,True Comorbidities
@@ -104,16 +106,16 @@ cgrp_receptor,Cgrp Receptor,interventions,46,Interventions
 gepants,Gepants,interventions,38,Interventions
 sleep_apnea,Sleep Apnea,true_comorbidities,16,True Comorbidities
 tms,Tms,interventions,56,Interventions
-occipital_nerve,Occipital Nerve,trigger_mechanisms,66,Trigger Mechanisms
 neuromodulation,Neuromodulation,interventions,109,Interventions
+occipital_nerve,Occipital Nerve,trigger_mechanisms,66,Trigger Mechanisms
 remote_electrical_neuromodulat,Remote Electrical Neuromodulation,interventions,15,Interventions
 cytokines,Cytokines,trigger_mechanisms,19,Trigger Mechanisms
 anti_inflammatory_agents,Anti-Inflammatory Agents,trigger_mechanisms,72,Trigger Mechanisms
 bipolar,Bipolar,true_comorbidities,25,True Comorbidities
 rls,Rls,true_comorbidities,41,True Comorbidities
 tension_type_therapy,Tension-Type Therapy,interventions,5,Interventions
-anxiety_disorders,Anxiety Disorders,true_comorbidities,15,True Comorbidities
 stress_disorders,Stress Disorders,trigger_mechanisms,14,Trigger Mechanisms
+anxiety_disorders,Anxiety Disorders,true_comorbidities,15,True Comorbidities
 acupuncture_therapy,Acupuncture Therapy,interventions,97,Interventions
 pain_management,Pain Management,interventions,96,Interventions
 stress_management,Stress Management,trigger_mechanisms,6,Trigger Mechanisms
@@ -121,9 +123,9 @@ psychotherapy,Psychotherapy,interventions,8,Interventions
 electric_stimulation_therapy,Electric Stimulation Therapy,interventions,40,Interventions
 trigger_points,Trigger Points,trigger_mechanisms,8,Trigger Mechanisms
 drug_therapy,Drug Therapy,interventions,75,Interventions
+work_productivity,Work Productivity,social_impact,30,Social Impact
 cerebrovascular,Cerebrovascular,trigger_mechanisms,9,Trigger Mechanisms
 presenteeism,Presenteeism,social_impact,20,Social Impact
-work_productivity,Work Productivity,social_impact,30,Social Impact
 monoclonal_antibodies,Monoclonal Antibodies,interventions,103,Interventions
 calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide Receptor,interventions,34,Interventions
 ptsd,Ptsd,true_comorbidities,11,True Comorbidities
@@ -137,16 +139,16 @@ yoga,Yoga,interventions,17,Interventions
 behavior_therapy,Behavior Therapy,interventions,20,Interventions
 behavioral_therapy,Behavioral Therapy,interventions,6,Interventions
 daily_functioning,Daily Functioning,social_impact,8,Social Impact
-cost,Cost,social_impact,5,Social Impact
-disability_adjusted_life_years,Disability-Adjusted Life Years,social_impact,3,Social Impact
 burden,Burden,social_impact,22,Social Impact
+disability_adjusted_life_years,Disability-Adjusted Life Years,social_impact,3,Social Impact
+cost,Cost,social_impact,5,Social Impact
 sham_acupuncture,Sham Acupuncture,interventions,5,Interventions
 sleep_quality,Sleep Quality,social_impact,18,Social Impact
 oxidative_stress,Oxidative Stress,trigger_mechanisms,17,Trigger Mechanisms
 inflammatory_bowel_diseases,Inflammatory Bowel Diseases,trigger_mechanisms,3,Trigger Mechanisms
-progesterone,Progesterone,trigger_mechanisms,3,Trigger Mechanisms
-estrogens,Estrogens,trigger_mechanisms,6,Trigger Mechanisms
 pharmacotherapy,Pharmacotherapy,interventions,4,Interventions
+estrogens,Estrogens,trigger_mechanisms,6,Trigger Mechanisms
+progesterone,Progesterone,trigger_mechanisms,3,Trigger Mechanisms
 hospitalization,Hospitalization,social_impact,41,Social Impact
 trigeminal_neuralgia,Trigeminal Neuralgia,trigger_mechanisms,5,Trigger Mechanisms
 vestibular_diseases,Vestibular Diseases,trigger_mechanisms,9,Trigger Mechanisms
@@ -160,8 +162,8 @@ psychological_distress,Psychological Distress,trigger_mechanisms,4,Trigger Mecha
 panic_disorder,Panic Disorder,true_comorbidities,6,True Comorbidities
 microvascular_angina,Microvascular Angina,trigger_mechanisms,4,Trigger Mechanisms
 dietary_approaches_stop_hypert,Dietary Approaches Stop Hypertension,true_comorbidities,5,True Comorbidities
-ischemic_stroke,Ischemic Stroke,true_comorbidities,26,True Comorbidities
 stroke_risk,Stroke Risk,true_comorbidities,17,True Comorbidities
+ischemic_stroke,Ischemic Stroke,true_comorbidities,26,True Comorbidities
 self_management,Self-Management,interventions,11,Interventions
 aerobic_exercise,Aerobic Exercise,interventions,8,Interventions
 migraine_disability,Migraine Disability,social_impact,3,Social Impact
@@ -171,8 +173,8 @@ allergic_rhinitis,Allergic Rhinitis,true_comorbidities,7,True Comorbidities
 transcranial_magnetic_stimulat,Transcranial Magnetic Stimulation,interventions,67,Interventions
 health_care_costs,Health Care Costs,social_impact,10,Social Impact
 acute_treatment,Acute Treatment,interventions,19,Interventions
-calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide Receptor Antagonists,interventions,53,Interventions
 onabotulinumtoxina,Onabotulinumtoxina,interventions,40,Interventions
+calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide Receptor Antagonists,interventions,53,Interventions
 prophylactic_treatment,Prophylactic Treatment,interventions,20,Interventions
 disease_burden,Disease Burden,social_impact,6,Social Impact
 calcitonin_gene_related_peptid,Calcitonin Gene-Related Peptide Receptor Dosage,interventions,26,Interventions
@@ -240,18 +242,19 @@ preventive_migraine_treatment,Preventive Migraine Treatment,interventions,3,Inte
 preventive_therapy,Preventive Therapy,interventions,7,Interventions
 light_therapy,Light Therapy,interventions,3,Interventions
 cost_effectiveness,Cost-Effectiveness,social_impact,4,Social Impact
-migraine_disability_assessment,Migraine Disability Assessment,social_impact,5,Social Impact
 migraine_specific_quality_life,Migraine-Specific Quality Life,social_impact,6,Social Impact
+migraine_disability_assessment,Migraine Disability Assessment,social_impact,5,Social Impact
 migraine_without_therapy,Migraine Without Therapy,interventions,3,Interventions
 vestibular_therapy,Vestibular Therapy,trigger_mechanisms,3,Trigger Mechanisms
+anti_cgrp,Anti-Cgrp,interventions,4,Interventions
 global_burden_disease,Global Burden Disease,social_impact,3,Social Impact
 headache_therapy,Headache Therapy,interventions,4,Interventions
 interventional,Interventional,interventions,7,Interventions
 drug_treatment,Drug Treatment,interventions,5,Interventions
 elimination_diet,Elimination Diet,interventions,3,Interventions
 cardiovascular_disease,Cardiovascular Disease,trigger_mechanisms,11,Trigger Mechanisms
-vasoconstriction,Vasoconstriction,trigger_mechanisms,9,Trigger Mechanisms
 cerebrovascular_circulation,Cerebrovascular Circulation,trigger_mechanisms,9,Trigger Mechanisms
+vasoconstriction,Vasoconstriction,trigger_mechanisms,9,Trigger Mechanisms
 barometric,Barometric,trigger_mechanisms,3,Trigger Mechanisms
 cardiovascular_induced,Cardiovascular Induced,trigger_mechanisms,3,Trigger Mechanisms
 vascular_dementia,Vascular Dementia,trigger_mechanisms,3,Trigger Mechanisms
@@ -294,8 +297,8 @@ pregnancy_therapy,Pregnancy Therapy,interventions,3,Interventions
 non_pharmacological_treatment,Non-Pharmacological Treatment,interventions,5,Interventions
 repetitive_transcranial_magnet,Repetitive Transcranial Magnetic Stimulation,interventions,5,Interventions
 stms,Stms,interventions,4,Interventions
-acute_migraine_treatment,Acute Migraine Treatment,interventions,7,Interventions
 nonpharmacological_treatment,Nonpharmacological Treatment,interventions,3,Interventions
+acute_migraine_treatment,Acute Migraine Treatment,interventions,7,Interventions
 stroke_like_migraine_attacks_a,Stroke-Like Migraine Attacks After Radiation Therapy Syndrome,true_comorbidities,3,True Comorbidities
 mindfulness_based_stress_reduc,Mindfulness-Based Stress Reduction,trigger_mechanisms,3,Trigger Mechanisms
 non_pharmacologic_treatment,Non-Pharmacologic Treatment,interventions,3,Interventions

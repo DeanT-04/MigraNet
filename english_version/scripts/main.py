@@ -6,7 +6,7 @@ import re
 from collections import defaultdict, Counter
 import itertools
 import os
-from typing import List, Tuple, Optional, Any
+from typing import List, Tuple, Optional, Any, Dict
 
 
 class PubMedRefinedNetworkV2:
@@ -201,7 +201,7 @@ class PubMedRefinedNetworkV2:
                 "keywords": [
                     # Medications
                     "triptans",
-                    "CGRP",
+                    "cgrp",
                     "erenumab",
                     "fremanezumab",
                     "galcanezumab",
@@ -315,7 +315,7 @@ class PubMedRefinedNetworkV2:
         term = " ".join(filtered_words)
 
         # 4. Title case and return
-        return term.title()
+        return str(term.title())
 
     def precise_categorization(self, term: str) -> str:
         """Precisely categorize medical terms"""
@@ -347,9 +347,9 @@ class PubMedRefinedNetworkV2:
         elif any(word in term_lower for word in intervention_words):
             return "interventions"
 
-        return "unclassified"  # Unclassified terms will be filtered
+        return "unclassified"
 
-    def extract_high_quality_terms(
+    def extract_high_quality_terms(  # noqa: C901
         self, tags_str: Any, abstract_text: Any = "", keywords_text: Any = ""
     ) -> List[str]:
         """Extract high-quality medical terms from multiple fields"""
@@ -393,7 +393,7 @@ class PubMedRefinedNetworkV2:
 
         return list(high_quality_terms)
 
-    def build_refined_network(
+    def build_refined_network(  # noqa: C901
         self, df: pd.DataFrame, min_frequency: int = 3, min_weight: int = 2
     ) -> Tuple[pd.DataFrame, pd.DataFrame]:
         """Build refined network"""
@@ -402,7 +402,7 @@ class PubMedRefinedNetworkV2:
         article_keywords = []
 
         for idx, row in df.iterrows():
-            if idx % 200 == 0 and idx > 0:
+            if isinstance(idx, int) and idx % 200 == 0 and idx > 0:
                 print(f"Processing: {idx}/{len(df)}")
 
             # Identify Abstract column
@@ -431,7 +431,7 @@ class PubMedRefinedNetworkV2:
         print(f"Valid articles: {len(article_keywords)}")
 
         # Calculate node frequency
-        node_frequency = Counter()
+        node_frequency: Counter[str] = Counter()
         for keywords in article_keywords:
             node_frequency.update(keywords)
 
@@ -443,7 +443,7 @@ class PubMedRefinedNetworkV2:
         print(f"Filtered terms: {len(filtered_terms)} (original: {len(node_frequency)})")
 
         # Calculate edge weights (only consider filtered terms)
-        edge_weights = defaultdict(int)
+        edge_weights: Dict[Tuple[str, str], int] = defaultdict(int)
         for keywords in article_keywords:
             # Only consider filtered terms
             filtered_keywords = [kw for kw in keywords if kw in filtered_terms]
@@ -515,7 +515,7 @@ class PubMedRefinedNetworkV2:
         print("\nNode category distribution:")
         category_stats = nodes_df["Category"].value_counts()
         for category, count in category_stats.items():
-            desc = self.refined_categories.get(category, {}).get("description", "Other")
+            desc = self.refined_categories.get(str(category), {}).get("description", "Other")
             percentage = (count / len(nodes_df)) * 100
             print(f"  - {desc}: {count} nodes ({percentage:.1f}%)")
 
@@ -525,7 +525,7 @@ class PubMedRefinedNetworkV2:
         for idx, row in top_terms.iterrows():
             desc = self.refined_categories.get(row["Category"], {}).get("description", "Other")
             print(
-                f"  {idx + 1:2d}. {row['Label']:25s} (frequency: {row['Frequency']:2d}, category: {desc})"
+                f"  {int(idx) + 1:2d}. {row['Label']:25s} (frequency: {row['Frequency']:2d}, category: {desc})"  # type: ignore
             )
 
 

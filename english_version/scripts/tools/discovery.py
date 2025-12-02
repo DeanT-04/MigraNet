@@ -3,7 +3,6 @@
 
 import pandas as pd
 import re
-import ast
 from collections import defaultdict, Counter
 import itertools
 import os
@@ -205,7 +204,7 @@ class PubMedNLPNetwork:
                     return cat
         return "unclassified"
 
-    def build_nlp_network(self, df):
+    def build_nlp_network(self, df):  # noqa: C901
         print("Building NLP network (V3)...")
         print(f"Available columns: {df.columns.tolist()}")
 
@@ -231,8 +230,20 @@ class PubMedNLPNetwork:
             abstract = ""
             if abstract_col:
                 abstract = row.get(abstract_col, "")
-            if pd.isna(abstract):
-                continue
+            
+            # Fallback if abstract is missing or empty
+            if pd.isna(abstract) or str(abstract).strip() == "":
+                # Construct text from Title and Manual Tags if available
+                parts = []
+                if "Title" in df.columns and not pd.isna(row.get("Title")):
+                    parts.append(str(row.get("Title")))
+                if "Manual Tags" in df.columns and not pd.isna(row.get("Manual Tags")):
+                    parts.append(str(row.get("Manual Tags")).replace(";", " "))
+                
+                if parts:
+                    abstract = " ".join(parts)
+                else:
+                    continue
 
             # Extract terms using YAKE
             yake_terms = self.extract_yake_keywords(abstract)
@@ -305,9 +316,13 @@ def main():
 
     if not os.path.exists(file_path):
         file_path = r"../data/raw/PubMed.csv"
+        
+    if not os.path.exists(file_path):
+        # Fallback for running from project root
+        file_path = r"english_version/data/raw/PubMed.csv"
 
     if not os.path.exists(file_path):
-        print("Input file not found.")
+        print(f"Input file not found at: {file_path}")
         return
 
     df = converter.load_pubmed_data(file_path)

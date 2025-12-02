@@ -3,7 +3,6 @@
 
 import pandas as pd
 import re
-import ast
 from collections import defaultdict, Counter
 import itertools
 import os
@@ -242,7 +241,7 @@ class PubMedRefinedNetwork:
                         if len(df.columns) > 3:
                             print(f"Successfully loaded: {encoding}, separator: '{sep}'")
                             return df
-                    except:
+                    except Exception:
                         continue
             return pd.read_csv(file_path, engine="python", on_bad_lines="skip")
         except Exception as e:
@@ -348,7 +347,7 @@ class PubMedRefinedNetwork:
 
         return list(high_quality_terms)
 
-    def build_refined_network(self, df, min_frequency=3, min_weight=2):
+    def build_refined_network(self, df, min_frequency=3, min_weight=2):  # noqa: C901
         """Build refined network"""
         print("Building refined network (significantly reducing node count)...")
 
@@ -445,7 +444,7 @@ class PubMedRefinedNetwork:
         print("=" * 60)
 
         # Basic statistics
-        print(f"Network scale:")
+        print("Network scale:")
         print(f"  - Nodes: {len(nodes_df):,} (original 3,645)")
         print(f"  - Edges: {len(edges_df):,} (original 181,245)")
         print(
@@ -453,7 +452,7 @@ class PubMedRefinedNetwork:
         )
 
         # Category distribution
-        print(f"\nNode category distribution:")
+        print("\nNode category distribution:")
         category_stats = nodes_df["Category"].value_counts()
         for category, count in category_stats.items():
             desc = self.refined_categories.get(category, {}).get("description", "Other")
@@ -461,7 +460,7 @@ class PubMedRefinedNetwork:
             print(f"  - {desc}: {count} nodes ({percentage:.1f}%)")
 
         # High-frequency terms
-        print(f"\nTop 20 high-frequency terms:")
+        print("\nTop 20 high-frequency terms:")
         top_terms = nodes_df.nlargest(20, "Frequency")
         for idx, row in top_terms.iterrows():
             desc = self.refined_categories.get(row["Category"], {}).get("description", "Other")
@@ -471,7 +470,7 @@ class PubMedRefinedNetwork:
 
         # Strong associations
         if not edges_df.empty:
-            print(f"\nTop 10 strong co-occurrence relationships:")
+            print("\nTop 10 strong co-occurrence relationships:")
             top_edges = edges_df.nlargest(10, "Weight")
             for idx, row in top_edges.iterrows():
                 print(
@@ -537,7 +536,7 @@ def main():
         os.path.join(output_dir, "detailed_refined_edges.csv"), index=False, encoding="utf-8-sig"
     )
 
-    print(f"\n[SUCCESS] Refined network files generated!")
+    print("\n[SUCCESS] Refined network files generated!")
     print(f"[STATS] Expected network size: {len(nodes_df)} nodes, {len(edges_df)} edges")
     print(
         f"[REDUCTION] Size reduction: nodes-{(3645 - len(nodes_df)) / 3645 * 100:.1f}%, edges-{(181245 - len(edges_df)) / 181245 * 100:.1f}%"
@@ -549,7 +548,7 @@ def main():
 
     Layout Algorithm: ForceAtlas 2
     - Repulsion Strength: 2000 (doubled from default 1000)
-    - Gravity: 50 (10x from default 5) 
+    - Gravity: 50 (10x from default 5)
     - Prevent Overlap: [X] Enabled
     - Edge Weight Influence: 1.0
     - Runtime: 3-5 minutes
