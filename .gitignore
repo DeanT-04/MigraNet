@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Gephi
+*.gephi
+*.gexf
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Project Specific
+# We keep raw data but ignore large temp files if any
+english_version/data/archive/
+english_version/data/discovery/

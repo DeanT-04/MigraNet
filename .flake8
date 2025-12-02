@@ -1,0 +1,50 @@
+# flake8 configuration
+# https://flake8.pycqa.org/en/latest/user/configuration.html
+
+[flake8]
+# Match black's line length
+max-line-length = 100
+
+# Compatibility with black
+extend-ignore = E203, E266, E501, W503
+
+# Exclude directories
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    english_version/venv,
+    chinese_version/venv,
+    .pytest_cache,
+    build,
+    dist,
+    *.egg-info,
+    .eggs,
+    docs/conf.py
+
+# Maximum complexity for functions
+max-complexity = 10
+
+# Show source code for errors
+show-source = true
+
+# Show statistics at the end
+statistics = true
+
+# Count errors
+count = true
+
+# Error codes to check
+select = 
+    E,   # pycodestyle errors
+    W,   # pycodestyle warnings
+    F,   # pyflakes
+    C,   # mccabe complexity
+    B,   # flake8-bugbear
+    
+# Specific ignores
+# E203: whitespace before ':' (conflicts with black)
+# E266: too many leading '#' for block comment
+# E501: line too long (handled by black)
+# W503: line break before binary operator (conflicts with black)

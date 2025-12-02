@@ -1,0 +1,238 @@
+﻿Id,Label,Category,Frequency,Category_Description
+epilepsy,Epilepsy,true_comorbidities,79,确证共病
+comorbidity,Comorbidity,true_comorbidities,473,确证共病
+headache_related_disability,Headache-Related Disability,social_impact,8,社会影响
+cardiovascular,Cardiovascular,trigger_mechanisms,42,诱发机制
+cost_illness,Cost Illness,social_impact,54,社会影响
+quality_life,Quality Life,social_impact,645,社会影响
+diet,Diet,interventions,59,干预措施
+depression,Depression,true_comorbidities,145,确证共病
+ketogenic_diet,Ketogenic Diet,interventions,16,干预措施
+anxiety,Anxiety,true_comorbidities,115,确证共病
+stroke,Stroke,true_comorbidities,109,确证共病
+patent_foramen_ovale,Patent Foramen Ovale,true_comorbidities,20,确证共病
+treatment_outcome,Treatment Outcome,interventions,621,干预措施
+combined_modality_therapy,Combined Modality Therapy,interventions,40,干预措施
+physical_therapy_modalities,Physical Therapy Modalities,interventions,30,干预措施
+galcanezumab,Galcanezumab,interventions,38,干预措施
+physiotherapy,Physiotherapy,interventions,11,干预措施
+disability_evaluation,Disability Evaluation,social_impact,73,社会影响
+menstrual_migraine,Menstrual Migraine,trigger_mechanisms,11,诱发机制
+menstrual,Menstrual,trigger_mechanisms,3,诱发机制
+hormone_replacement_therapy,Hormone Replacement Therapy,interventions,3,干预措施
+menopause,Menopause,trigger_mechanisms,8,诱发机制
+disease_management,Disease Management,interventions,18,干预措施
+medication_overuse,Medication Overuse,interventions,18,干预措施
+quality,Quality,social_impact,49,社会影响
+acupuncture,Acupuncture,interventions,113,干预措施
+exercise,Exercise,interventions,48,干预措施
+mindfulness,Mindfulness,interventions,20,干预措施
+stress,Stress,trigger_mechanisms,41,诱发机制
+stigma,Stigma,social_impact,14,社会影响
+social_stigma,Social Stigma,social_impact,18,社会影响
+disability,Disability,social_impact,67,社会影响
+therapy,Therapy,interventions,81,干预措施
+migraine_treatment,Migraine Treatment,interventions,18,干预措施
+restless_legs_syndrome,Restless Legs Syndrome,true_comorbidities,13,确证共病
+circadian_rhythm,Circadian Rhythm,true_comorbidities,5,确证共病
+insomnia,Insomnia,true_comorbidities,19,确证共病
+pathophysiology,Pathophysiology,trigger_mechanisms,6,诱发机制
+treatment,Treatment,interventions,52,干预措施
+relaxation_therapy,Relaxation Therapy,interventions,9,干预措施
+biofeedback,Biofeedback,interventions,28,干预措施
+behavioral_treatment,Behavioral Treatment,interventions,4,干预措施
+cognitive_behavioral_therapy,Cognitive Behavioral Therapy,interventions,24,干预措施
+topiramate,Topiramate,interventions,30,干预措施
+botulinum_toxins,Botulinum Toxins,interventions,105,干预措施
+chronic_pain,Chronic Pain,true_comorbidities,30,确证共病
+migraine_therapy,Migraine Therapy,interventions,323,干预措施
+irritable_bowel,Irritable Bowel,true_comorbidities,15,确证共病
+irritable_bowel_syndrome,Irritable Bowel Syndrome,true_comorbidities,10,确证共病
+fibromyalgia,Fibromyalgia,true_comorbidities,26,确证共病
+phytotherapy,Phytotherapy,interventions,13,干预措施
+management,Management,interventions,7,干预措施
+trigeminovascular,Trigeminovascular,trigger_mechanisms,7,诱发机制
+psychiatric_comorbidity,Psychiatric Comorbidity,true_comorbidities,5,确证共病
+relaxation,Relaxation,interventions,15,干预措施
+comorbidities,Comorbidities,true_comorbidities,17,确证共病
+light_sensitivity,Light Sensitivity,trigger_mechanisms,5,诱发机制
+triptans,Triptans,interventions,34,干预措施
+erenumab,Erenumab,interventions,38,干预措施
+fremanezumab,Fremanezumab,interventions,27,干预措施
+vasodilation,Vasodilation,trigger_mechanisms,4,诱发机制
+hypertension,Hypertension,true_comorbidities,23,确证共病
+neuromodulation,Neuromodulation,interventions,55,干预措施
+remote_electrical_neuromodulat,Remote Electrical Neuromodulation,interventions,15,干预措施
+anti_inflammatory_agents,Anti-Inflammatory Agents,trigger_mechanisms,72,诱发机制
+hormonal,Hormonal,trigger_mechanisms,7,诱发机制
+cortical_spreading_depression,Cortical Spreading Depression,trigger_mechanisms,21,诱发机制
+vascular,Vascular,trigger_mechanisms,15,诱发机制
+physical_therapy,Physical Therapy,interventions,13,干预措施
+tension_type_therapy,Tension-Type Therapy,interventions,5,干预措施
+stress_disorders,Stress Disorders,trigger_mechanisms,14,诱发机制
+anxiety_disorders,Anxiety Disorders,true_comorbidities,15,确证共病
+pain_management,Pain Management,interventions,96,干预措施
+acupuncture_therapy,Acupuncture Therapy,interventions,97,干预措施
+psychotherapy,Psychotherapy,interventions,8,干预措施
+electric_stimulation_therapy,Electric Stimulation Therapy,interventions,40,干预措施
+trigger_points,Trigger Points,trigger_mechanisms,8,诱发机制
+drug_therapy,Drug Therapy,interventions,75,干预措施
+cerebrovascular,Cerebrovascular,trigger_mechanisms,9,诱发机制
+trigeminal,Trigeminal,trigger_mechanisms,19,诱发机制
+monoclonal_antibodies,Monoclonal Antibodies,interventions,30,干预措施
+post_traumatic_stress_disorder,Post-Traumatic Stress Disorder,trigger_mechanisms,3,诱发机制
+ptsd,Ptsd,true_comorbidities,3,确证共病
+interictal_burden,Interictal Burden,social_impact,6,社会影响
+yoga,Yoga,interventions,11,干预措施
+medication_overuse_headache,Medication Overuse Headache,interventions,27,干预措施
+behavioral_therapy,Behavioral Therapy,interventions,6,干预措施
+behavior_therapy,Behavior Therapy,interventions,20,干预措施
+sleep_apnea,Sleep Apnea,true_comorbidities,10,确证共病
+bipolar,Bipolar,true_comorbidities,10,确证共病
+burden,Burden,social_impact,22,社会影响
+absenteeism,Absenteeism,social_impact,13,社会影响
+disability_adjusted_life_years,Disability-Adjusted Life Years,social_impact,3,社会影响
+cost,Cost,social_impact,5,社会影响
+parkinson,Parkinson,true_comorbidities,6,确证共病
+sham_acupuncture,Sham Acupuncture,interventions,5,干预措施
+sleep_quality,Sleep Quality,social_impact,18,社会影响
+oxidative_stress,Oxidative Stress,trigger_mechanisms,17,诱发机制
+inflammatory_bowel_diseases,Inflammatory Bowel Diseases,trigger_mechanisms,3,诱发机制
+estrogen,Estrogen,trigger_mechanisms,10,诱发机制
+estrogens,Estrogens,trigger_mechanisms,6,诱发机制
+pharmacotherapy,Pharmacotherapy,interventions,4,干预措施
+trigeminal_neuralgia,Trigeminal Neuralgia,trigger_mechanisms,5,诱发机制
+manual_therapy,Manual Therapy,interventions,14,干预措施
+alzheimer,Alzheimer,true_comorbidities,6,确证共病
+psychological_treatment,Psychological Treatment,interventions,3,干预措施
+acupuncture_points,Acupuncture Points,interventions,40,干预措施
+acute_therapy,Acute Therapy,interventions,3,干预措施
+posttraumatic_stress_disorder,Posttraumatic Stress Disorder,trigger_mechanisms,4,诱发机制
+life_quality,Life Quality,social_impact,4,社会影响
+psychological_distress,Psychological Distress,trigger_mechanisms,4,诱发机制
+microvascular_angina,Microvascular Angina,trigger_mechanisms,4,诱发机制
+dietary_approaches_stop_hypert,Dietary Approaches Stop Hypertension,true_comorbidities,5,确证共病
+ischemic_stroke,Ischemic Stroke,true_comorbidities,26,确证共病
+self_management,Self-Management,interventions,11,干预措施
+aerobic_exercise,Aerobic Exercise,interventions,8,干预措施
+migraine_disability,Migraine Disability,social_impact,3,社会影响
+cerebrovascular_disease,Cerebrovascular Disease,trigger_mechanisms,8,诱发机制
+bipolar_disorder,Bipolar Disorder,true_comorbidities,11,确证共病
+health_care_costs,Health Care Costs,social_impact,10,社会影响
+central_sensitization,Central Sensitization,trigger_mechanisms,12,诱发机制
+acute_treatment,Acute Treatment,interventions,19,干预措施
+onabotulinumtoxina,Onabotulinumtoxina,interventions,40,干预措施
+disease_burden,Disease Burden,social_impact,6,社会影响
+prophylactic_treatment,Prophylactic Treatment,interventions,20,干预措施
+intervention,Intervention,interventions,5,干预措施
+parkinson_disease,Parkinson Disease,true_comorbidities,3,确证共病
+health_related_quality_life,Health-Related Quality Life,social_impact,21,社会影响
+thrombolytic_therapy,Thrombolytic Therapy,interventions,7,干预措施
+cardiovascular_diseases,Cardiovascular Diseases,trigger_mechanisms,23,诱发机制
+restless_legs,Restless Legs,true_comorbidities,7,确证共病
+treatment_patterns,Treatment Patterns,interventions,3,干预措施
+central_nervous_sensitization,Central Nervous Sensitization,trigger_mechanisms,6,诱发机制
+preventive_treatment,Preventive Treatment,interventions,19,干预措施
+stigmatization,Stigmatization,social_impact,3,社会影响
+duration_therapy,Duration Therapy,interventions,4,干预措施
+dietary,Dietary,interventions,7,干预措施
+anti_cgrp_monoclonal_antibodie,Anti-Cgrp Monoclonal Antibodies,interventions,5,干预措施
+chronic_therapy,Chronic Therapy,interventions,7,干预措施
+medication_overuse_headache,Medication-Overuse Headache,interventions,9,干预措施
+internet_based_intervention,Internet-Based Intervention,interventions,3,干预措施
+cost_benefit,Cost-Benefit,social_impact,14,社会影响
+treatment_response,Treatment Response,interventions,3,干预措施
+menstrual_cycle,Menstrual Cycle,trigger_mechanisms,4,诱发机制
+medication,Medication,interventions,6,干预措施
+asthma,Asthma,true_comorbidities,14,确证共病
+work_productivity,Work Productivity,social_impact,11,社会影响
+self_medication,Self Medication,interventions,3,干预措施
+electroacupuncture,Electroacupuncture,interventions,19,干预措施
+costs,Costs,social_impact,5,社会影响
+quality_adjusted_life_years,Quality-Adjusted Life Years,social_impact,7,社会影响
+pulsed_radiofrequency_treatmen,Pulsed Radiofrequency Treatment,interventions,5,干预措施
+progressive_muscle_relaxation,Progressive Muscle Relaxation,interventions,4,干预措施
+exercise_therapy,Exercise Therapy,interventions,20,干预措施
+desensitization,Desensitization,trigger_mechanisms,3,诱发机制
+cerebrovascular_disorders,Cerebrovascular Disorders,trigger_mechanisms,4,诱发机制
+triggers,Triggers,trigger_mechanisms,9,诱发机制
+dietary_supplements,Dietary Supplements,interventions,28,干预措施
+mechanism,Mechanism,trigger_mechanisms,4,诱发机制
+trigger,Trigger,trigger_mechanisms,11,诱发机制
+botulinum_toxin,Botulinum Toxin,interventions,17,干预措施
+treatment_failure,Treatment Failure,interventions,11,干预措施
+diet_therapy,Diet Therapy,interventions,5,干预措施
+hormonal_contraception,Hormonal Contraception,trigger_mechanisms,3,诱发机制
+cryptogenic_stroke,Cryptogenic Stroke,true_comorbidities,3,确证共病
+estrogen_replacement,Estrogen Replacement,trigger_mechanisms,3,诱发机制
+premenopause,Premenopause,trigger_mechanisms,3,诱发机制
+cluster_therapy,Cluster Therapy,interventions,4,干预措施
+hemorrhagic_stroke,Hemorrhagic Stroke,true_comorbidities,3,确证共病
+anti_inflammatory_dosage,Anti-Inflammatory Dosage,trigger_mechanisms,3,诱发机制
+menstrually_related_migraine,Menstrually Related Migraine,trigger_mechanisms,6,诱发机制
+botulinum_toxin_type,Botulinum Toxin Type,interventions,10,干预措施
+combination_therapy,Combination Therapy,interventions,3,干预措施
+onabotulinum_toxin,Onabotulinum Toxin,interventions,3,干预措施
+cgrp_monoclonal_antibodies,Cgrp Monoclonal Antibodies,interventions,5,干预措施
+trigeminal_autonomic_cephalalg,Trigeminal Autonomic Cephalalgias,trigger_mechanisms,4,诱发机制
+onabotulinumtoxin,Onabotulinumtoxin,interventions,5,干预措施
+migraine_specific_quality_life,Migraine-Specific Quality Life Questionnaire,social_impact,3,社会影响
+preventive_migraine_treatment,Preventive Migraine Treatment,interventions,3,干预措施
+preventive_therapy,Preventive Therapy,interventions,7,干预措施
+light_therapy,Light Therapy,interventions,3,干预措施
+cost_effectiveness,Cost-Effectiveness,social_impact,4,社会影响
+migraine_disability_assessment,Migraine Disability Assessment,social_impact,5,社会影响
+migraine_specific_quality_life,Migraine-Specific Quality Life,social_impact,6,社会影响
+migraine_without_therapy,Migraine Without Therapy,interventions,3,干预措施
+vestibular_therapy,Vestibular Therapy,interventions,3,干预措施
+global_burden_disease,Global Burden Disease,social_impact,3,社会影响
+presenteeism,Presenteeism,social_impact,6,社会影响
+headache_therapy,Headache Therapy,interventions,4,干预措施
+interventional,Interventional,interventions,7,干预措施
+propranolol,Propranolol,interventions,10,干预措施
+neuropathic_pain,Neuropathic Pain,true_comorbidities,4,确证共病
+drug_treatment,Drug Treatment,interventions,5,干预措施
+elimination_diet,Elimination Diet,interventions,3,干预措施
+weather,Weather,trigger_mechanisms,4,诱发机制
+cardiovascular_disease,Cardiovascular Disease,trigger_mechanisms,11,诱发机制
+cerebrovascular_circulation,Cerebrovascular Circulation,trigger_mechanisms,9,诱发机制
+vasoconstriction,Vasoconstriction,trigger_mechanisms,4,诱发机制
+cardiovascular_induced,Cardiovascular Induced,trigger_mechanisms,3,诱发机制
+vascular_dementia,Vascular Dementia,trigger_mechanisms,3,诱发机制
+trigger_factors,Trigger Factors,trigger_mechanisms,4,诱发机制
+amitriptyline,Amitriptyline,interventions,10,干预措施
+stroke_young_adults,Stroke Young Adults,true_comorbidities,3,确证共病
+neuroinflammation,Neuroinflammation,trigger_mechanisms,6,诱发机制
+trigeminal_ganglion,Trigeminal Ganglion,trigger_mechanisms,5,诱发机制
+auricular_acupuncture,Auricular Acupuncture,interventions,4,干预措施
+radiotherapy,Radiotherapy,interventions,12,干预措施
+molecular_targeted_therapy,Molecular Targeted Therapy,interventions,23,干预措施
+medication_adherence,Medication Adherence,interventions,4,干预措施
+cupping_therapy,Cupping Therapy,interventions,3,干预措施
+acupuncture_analgesia,Acupuncture Analgesia,interventions,3,干预措施
+external_trigeminal_nerve_stim,External Trigeminal Nerve Stimulation,trigger_mechanisms,6,诱发机制
+trigeminal_nerve,Trigeminal Nerve,trigger_mechanisms,15,诱发机制
+retreatment,Retreatment,interventions,5,干预措施
+botulinum_neurotoxin,Botulinum Neurotoxin,interventions,3,干预措施
+withholding_treatment,Withholding Treatment,interventions,8,干预措施
+magnetic_field_therapy,Magnetic Field Therapy,interventions,4,干预措施
+time_to_treatment,Time-To-Treatment,interventions,5,干预措施
+fluid_therapy,Fluid Therapy,interventions,6,干预措施
+estrogen_replacement_therapy,Estrogen Replacement Therapy,trigger_mechanisms,3,诱发机制
+attack_treatment,Attack Treatment,interventions,3,干预措施
+drug_costs,Drug Costs,social_impact,3,社会影响
+oxygen_inhalation_therapy,Oxygen Inhalation Therapy,interventions,4,干预措施
+emergency_treatment,Emergency Treatment,interventions,4,干预措施
+acupuncture_moxibustion,Acupuncture Moxibustion,interventions,7,干预措施
+mediterranean_diet,Mediterranean Diet,interventions,4,干预措施
+perimenopause,Perimenopause,trigger_mechanisms,3,诱发机制
+ultrasonic_therapy,Ultrasonic Therapy,interventions,3,干预措施
+pregnancy_therapy,Pregnancy Therapy,interventions,3,干预措施
+non_pharmacological_treatment,Non-Pharmacological Treatment,interventions,5,干预措施
+acute_migraine_treatment,Acute Migraine Treatment,interventions,7,干预措施
+nonpharmacological_treatment,Nonpharmacological Treatment,interventions,3,干预措施
+stroke_like_migraine_attacks_a,Stroke-Like Migraine Attacks After Radiation Therapy Syndrome,true_comorbidities,3,确证共病
+mindfulness_based_stress_reduc,Mindfulness-Based Stress Reduction,trigger_mechanisms,3,诱发机制
+valproate,Valproate,interventions,4,干预措施
+non_pharmacologic_treatment,Non-Pharmacologic Treatment,interventions,3,干预措施
+music_therapy,Music Therapy,interventions,3,干预措施

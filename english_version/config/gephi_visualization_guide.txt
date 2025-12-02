@@ -1,0 +1,16 @@
+
+    🎯 Gephi Optimization Parameters (for refined network):
+
+    Layout Algorithm: ForceAtlas 2
+    - Repulsion Strength: 2000 (doubled from default 1000)
+    - Gravity: 50 (10x from default 5) 
+    - Prevent Overlap: ✅ Enabled
+    - Edge Weight Influence: 1.0
+    - Runtime: 3-5 minutes
+
+    Appearance Settings:
+    - Node Color: By Category field
+    - Node Size: By Frequency field (range 2-15)
+    - Labels: Only show nodes with Frequency > 5
+    - Edge Transparency: 0.3 (for better readability)
+    

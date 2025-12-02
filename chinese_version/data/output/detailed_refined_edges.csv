@@ -1,0 +1,863 @@
+﻿Source,Target,Weight,Type,Source_Label,Target_Label
+comorbidity,epilepsy,30,Undirected,Comorbidity,Epilepsy
+cardiovascular,comorbidity,9,Undirected,Cardiovascular,Comorbidity
+comorbidity,cost_illness,9,Undirected,Comorbidity,Cost Illness
+comorbidity,headache_related_disability,3,Undirected,Comorbidity,Headache-Related Disability
+comorbidity,quality_life,40,Undirected,Comorbidity,Quality Life
+cost_illness,quality_life,42,Undirected,Cost Illness,Quality Life
+headache_related_disability,quality_life,2,Undirected,Headache-Related Disability,Quality Life
+depression,epilepsy,5,Undirected,Depression,Epilepsy
+depression,quality_life,43,Undirected,Depression,Quality Life
+diet,epilepsy,2,Undirected,Diet,Epilepsy
+diet,ketogenic_diet,16,Undirected,Diet,Ketogenic Diet
+diet,quality_life,9,Undirected,Diet,Quality Life
+epilepsy,quality_life,8,Undirected,Epilepsy,Quality Life
+ketogenic_diet,quality_life,3,Undirected,Ketogenic Diet,Quality Life
+anxiety,comorbidity,69,Undirected,Anxiety,Comorbidity
+comorbidity,patent_foramen_ovale,3,Undirected,Comorbidity,Patent Foramen Ovale
+comorbidity,stroke,18,Undirected,Comorbidity,Stroke
+patent_foramen_ovale,stroke,3,Undirected,Patent Foramen Ovale,Stroke
+comorbidity,treatment_outcome,23,Undirected,Comorbidity,Treatment Outcome
+combined_modality_therapy,comorbidity,3,Undirected,Combined Modality Therapy,Comorbidity
+combined_modality_therapy,physical_therapy_modalities,4,Undirected,Combined Modality Therapy,Physical Therapy Modalities
+comorbidity,physical_therapy_modalities,2,Undirected,Comorbidity,Physical Therapy Modalities
+galcanezumab,quality_life,19,Undirected,Galcanezumab,Quality Life
+galcanezumab,treatment_outcome,25,Undirected,Galcanezumab,Treatment Outcome
+quality_life,treatment_outcome,166,Undirected,Quality Life,Treatment Outcome
+disability_evaluation,physiotherapy,2,Undirected,Disability Evaluation,Physiotherapy
+disability_evaluation,quality_life,33,Undirected,Disability Evaluation,Quality Life
+physiotherapy,quality_life,3,Undirected,Physiotherapy,Quality Life
+hormone_replacement_therapy,menopause,2,Undirected,Hormone Replacement Therapy,Menopause
+hormone_replacement_therapy,stroke,2,Undirected,Hormone Replacement Therapy,Stroke
+menopause,quality_life,2,Undirected,Menopause,Quality Life
+menopause,stroke,4,Undirected,Menopause,Stroke
+menstrual_migraine,quality_life,5,Undirected,Menstrual Migraine,Quality Life
+quality_life,stroke,2,Undirected,Quality Life,Stroke
+disease_management,quality,2,Undirected,Disease Management,Quality
+medication_overuse,quality,4,Undirected,Medication Overuse,Quality
+comorbidity,depression,89,Undirected,Comorbidity,Depression
+acupuncture,exercise,2,Undirected,Acupuncture,Exercise
+acupuncture,quality_life,17,Undirected,Acupuncture,Quality Life
+exercise,quality_life,14,Undirected,Exercise,Quality Life
+anxiety,depression,71,Undirected,Anxiety,Depression
+anxiety,mindfulness,2,Undirected,Anxiety,Mindfulness
+comorbidity,mindfulness,2,Undirected,Comorbidity,Mindfulness
+depression,mindfulness,3,Undirected,Depression,Mindfulness
+comorbidity,stress,15,Undirected,Comorbidity,Stress
+cost_illness,disability,8,Undirected,Cost Illness,Disability
+cost_illness,social_stigma,4,Undirected,Cost Illness,Social Stigma
+cost_illness,stigma,2,Undirected,Cost Illness,Stigma
+disability,quality_life,36,Undirected,Disability,Quality Life
+disability,social_stigma,3,Undirected,Disability,Social Stigma
+disability,stigma,4,Undirected,Disability,Stigma
+quality_life,social_stigma,5,Undirected,Quality Life,Social Stigma
+quality_life,stigma,7,Undirected,Quality Life,Stigma
+social_stigma,stigma,11,Undirected,Social Stigma,Stigma
+comorbidity,therapy,8,Undirected,Comorbidity,Therapy
+depression,therapy,4,Undirected,Depression,Therapy
+migraine_treatment,quality_life,4,Undirected,Migraine Treatment,Quality Life
+circadian_rhythm,comorbidity,2,Undirected,Circadian Rhythm,Comorbidity
+circadian_rhythm,insomnia,2,Undirected,Circadian Rhythm,Insomnia
+comorbidity,insomnia,14,Undirected,Comorbidity,Insomnia
+comorbidity,restless_legs_syndrome,13,Undirected,Comorbidity,Restless Legs Syndrome
+insomnia,restless_legs_syndrome,2,Undirected,Insomnia,Restless Legs Syndrome
+comorbidity,treatment,5,Undirected,Comorbidity,Treatment
+behavioral_treatment,biofeedback,3,Undirected,Behavioral Treatment,Biofeedback
+behavioral_treatment,relaxation_therapy,2,Undirected,Behavioral Treatment,Relaxation Therapy
+biofeedback,cognitive_behavioral_therapy,5,Undirected,Biofeedback,Cognitive Behavioral Therapy
+biofeedback,quality_life,4,Undirected,Biofeedback,Quality Life
+biofeedback,relaxation_therapy,6,Undirected,Biofeedback,Relaxation Therapy
+biofeedback,topiramate,2,Undirected,Biofeedback,Topiramate
+biofeedback,treatment_outcome,6,Undirected,Biofeedback,Treatment Outcome
+botulinum_toxins,chronic_pain,2,Undirected,Botulinum Toxins,Chronic Pain
+botulinum_toxins,cognitive_behavioral_therapy,2,Undirected,Botulinum Toxins,Cognitive Behavioral Therapy
+botulinum_toxins,quality_life,45,Undirected,Botulinum Toxins,Quality Life
+botulinum_toxins,topiramate,5,Undirected,Botulinum Toxins,Topiramate
+botulinum_toxins,treatment_outcome,52,Undirected,Botulinum Toxins,Treatment Outcome
+chronic_pain,quality_life,12,Undirected,Chronic Pain,Quality Life
+chronic_pain,treatment_outcome,6,Undirected,Chronic Pain,Treatment Outcome
+cognitive_behavioral_therapy,quality_life,7,Undirected,Cognitive Behavioral Therapy,Quality Life
+cognitive_behavioral_therapy,relaxation_therapy,5,Undirected,Cognitive Behavioral Therapy,Relaxation Therapy
+cognitive_behavioral_therapy,treatment_outcome,5,Undirected,Cognitive Behavioral Therapy,Treatment Outcome
+quality_life,relaxation_therapy,2,Undirected,Quality Life,Relaxation Therapy
+quality_life,topiramate,7,Undirected,Quality Life,Topiramate
+relaxation_therapy,treatment_outcome,2,Undirected,Relaxation Therapy,Treatment Outcome
+topiramate,treatment_outcome,17,Undirected,Topiramate,Treatment Outcome
+migraine_therapy,quality_life,102,Undirected,Migraine Therapy,Quality Life
+comorbidity,fibromyalgia,19,Undirected,Comorbidity,Fibromyalgia
+comorbidity,irritable_bowel,8,Undirected,Comorbidity,Irritable Bowel
+comorbidity,irritable_bowel_syndrome,7,Undirected,Comorbidity,Irritable Bowel Syndrome
+fibromyalgia,irritable_bowel,2,Undirected,Fibromyalgia,Irritable Bowel
+fibromyalgia,irritable_bowel_syndrome,4,Undirected,Fibromyalgia,Irritable Bowel Syndrome
+irritable_bowel,irritable_bowel_syndrome,3,Undirected,Irritable Bowel,Irritable Bowel Syndrome
+comorbidity,management,5,Undirected,Comorbidity,Management
+management,quality_life,3,Undirected,Management,Quality Life
+epilepsy,stroke,9,Undirected,Epilepsy,Stroke
+cognitive_behavioral_therapy,comorbidity,6,Undirected,Cognitive Behavioral Therapy,Comorbidity
+cognitive_behavioral_therapy,psychiatric_comorbidity,2,Undirected,Cognitive Behavioral Therapy,Psychiatric Comorbidity
+comorbidity,psychiatric_comorbidity,5,Undirected,Comorbidity,Psychiatric Comorbidity
+quality_life,relaxation,4,Undirected,Quality Life,Relaxation
+comorbidities,comorbidity,13,Undirected,Comorbidities,Comorbidity
+cognitive_behavioral_therapy,insomnia,4,Undirected,Cognitive Behavioral Therapy,Insomnia
+insomnia,treatment_outcome,2,Undirected,Insomnia,Treatment Outcome
+light_sensitivity,quality_life,3,Undirected,Light Sensitivity,Quality Life
+migraine_therapy,treatment_outcome,107,Undirected,Migraine Therapy,Treatment Outcome
+comorbidity,triptans,2,Undirected,Comorbidity,Triptans
+comorbidity,erenumab,3,Undirected,Comorbidity,Erenumab
+comorbidity,fremanezumab,2,Undirected,Comorbidity,Fremanezumab
+comorbidity,galcanezumab,2,Undirected,Comorbidity,Galcanezumab
+comorbidity,migraine_therapy,8,Undirected,Comorbidity,Migraine Therapy
+erenumab,fremanezumab,11,Undirected,Erenumab,Fremanezumab
+erenumab,galcanezumab,13,Undirected,Erenumab,Galcanezumab
+erenumab,migraine_therapy,12,Undirected,Erenumab,Migraine Therapy
+erenumab,therapy,2,Undirected,Erenumab,Therapy
+erenumab,treatment_outcome,20,Undirected,Erenumab,Treatment Outcome
+fremanezumab,galcanezumab,11,Undirected,Fremanezumab,Galcanezumab
+fremanezumab,migraine_therapy,9,Undirected,Fremanezumab,Migraine Therapy
+fremanezumab,therapy,2,Undirected,Fremanezumab,Therapy
+fremanezumab,treatment_outcome,17,Undirected,Fremanezumab,Treatment Outcome
+galcanezumab,migraine_therapy,9,Undirected,Galcanezumab,Migraine Therapy
+migraine_therapy,therapy,41,Undirected,Migraine Therapy,Therapy
+therapy,treatment_outcome,27,Undirected,Therapy,Treatment Outcome
+diet,migraine_therapy,12,Undirected,Diet,Migraine Therapy
+ketogenic_diet,migraine_therapy,3,Undirected,Ketogenic Diet,Migraine Therapy
+comorbidity,hypertension,4,Undirected,Comorbidity,Hypertension
+neuromodulation,quality_life,6,Undirected,Neuromodulation,Quality Life
+neuromodulation,remote_electrical_neuromodulat,3,Undirected,Neuromodulation,Remote Electrical Neuromodulation
+quality_life,remote_electrical_neuromodulat,2,Undirected,Quality Life,Remote Electrical Neuromodulation
+quality_life,stress,7,Undirected,Quality Life,Stress
+anti_inflammatory_agents,comorbidity,5,Undirected,Anti-Inflammatory Agents,Comorbidity
+comorbidity,disability_evaluation,9,Undirected,Comorbidity,Disability Evaluation
+management,treatment,2,Undirected,Management,Treatment
+comorbidity,cortical_spreading_depression,3,Undirected,Comorbidity,Cortical Spreading Depression
+anxiety,combined_modality_therapy,2,Undirected,Anxiety,Combined Modality Therapy
+combined_modality_therapy,depression,2,Undirected,Combined Modality Therapy,Depression
+comorbidity,vascular,3,Undirected,Comorbidity,Vascular
+physical_therapy,quality_life,4,Undirected,Physical Therapy,Quality Life
+anxiety,quality_life,34,Undirected,Anxiety,Quality Life
+migraine_therapy,physical_therapy_modalities,3,Undirected,Migraine Therapy,Physical Therapy Modalities
+migraine_therapy,physiotherapy,3,Undirected,Migraine Therapy,Physiotherapy
+migraine_therapy,quality,3,Undirected,Migraine Therapy,Quality
+migraine_therapy,tension_type_therapy,4,Undirected,Migraine Therapy,Tension-Type Therapy
+physical_therapy,physical_therapy_modalities,4,Undirected,Physical Therapy,Physical Therapy Modalities
+physical_therapy,quality,2,Undirected,Physical Therapy,Quality
+physical_therapy,treatment_outcome,3,Undirected,Physical Therapy,Treatment Outcome
+physical_therapy_modalities,physiotherapy,7,Undirected,Physical Therapy Modalities,Physiotherapy
+physical_therapy_modalities,treatment_outcome,4,Undirected,Physical Therapy Modalities,Treatment Outcome
+physiotherapy,treatment_outcome,4,Undirected,Physiotherapy,Treatment Outcome
+quality,treatment_outcome,6,Undirected,Quality,Treatment Outcome
+tension_type_therapy,treatment_outcome,3,Undirected,Tension-Type Therapy,Treatment Outcome
+anxiety_disorders,comorbidity,10,Undirected,Anxiety Disorders,Comorbidity
+anxiety_disorders,quality_life,4,Undirected,Anxiety Disorders,Quality Life
+anxiety_disorders,stress_disorders,2,Undirected,Anxiety Disorders,Stress Disorders
+comorbidity,disease_management,4,Undirected,Comorbidity,Disease Management
+comorbidity,stress_disorders,12,Undirected,Comorbidity,Stress Disorders
+disease_management,quality_life,4,Undirected,Disease Management,Quality Life
+quality_life,stress_disorders,2,Undirected,Quality Life,Stress Disorders
+acupuncture_therapy,botulinum_toxins,2,Undirected,Acupuncture Therapy,Botulinum Toxins
+acupuncture_therapy,cognitive_behavioral_therapy,3,Undirected,Acupuncture Therapy,Cognitive Behavioral Therapy
+acupuncture_therapy,pain_management,6,Undirected,Acupuncture Therapy,Pain Management
+acupuncture_therapy,quality_life,10,Undirected,Acupuncture Therapy,Quality Life
+acupuncture_therapy,treatment_outcome,35,Undirected,Acupuncture Therapy,Treatment Outcome
+botulinum_toxins,pain_management,3,Undirected,Botulinum Toxins,Pain Management
+cognitive_behavioral_therapy,pain_management,2,Undirected,Cognitive Behavioral Therapy,Pain Management
+pain_management,quality_life,10,Undirected,Pain Management,Quality Life
+pain_management,treatment_outcome,44,Undirected,Pain Management,Treatment Outcome
+psychotherapy,quality_life,4,Undirected,Psychotherapy,Quality Life
+electric_stimulation_therapy,neuromodulation,14,Undirected,Electric Stimulation Therapy,Neuromodulation
+electric_stimulation_therapy,quality_life,8,Undirected,Electric Stimulation Therapy,Quality Life
+electric_stimulation_therapy,treatment,7,Undirected,Electric Stimulation Therapy,Treatment
+neuromodulation,treatment,3,Undirected,Neuromodulation,Treatment
+quality_life,treatment,8,Undirected,Quality Life,Treatment
+quality_life,therapy,26,Undirected,Quality Life,Therapy
+acupuncture,treatment_outcome,40,Undirected,Acupuncture,Treatment Outcome
+drug_therapy,quality_life,6,Undirected,Drug Therapy,Quality Life
+drug_therapy,topiramate,5,Undirected,Drug Therapy,Topiramate
+drug_therapy,treatment_outcome,28,Undirected,Drug Therapy,Treatment Outcome
+migraine_treatment,treatment_outcome,8,Undirected,Migraine Treatment,Treatment Outcome
+comorbidity,disability,15,Undirected,Comorbidity,Disability
+cerebrovascular,comorbidity,4,Undirected,Cerebrovascular,Comorbidity
+cerebrovascular,quality_life,3,Undirected,Cerebrovascular,Quality Life
+anxiety,epilepsy,2,Undirected,Anxiety,Epilepsy
+exercise,physical_therapy,6,Undirected,Exercise,Physical Therapy
+exercise,quality,2,Undirected,Exercise,Quality
+exercise,relaxation,2,Undirected,Exercise,Relaxation
+exercise,treatment_outcome,9,Undirected,Exercise,Treatment Outcome
+quality,quality_life,12,Undirected,Quality,Quality Life
+relaxation,treatment_outcome,5,Undirected,Relaxation,Treatment Outcome
+comorbidity,post_traumatic_stress_disorder,2,Undirected,Comorbidity,Post-Traumatic Stress Disorder
+comorbidity,ptsd,3,Undirected,Comorbidity,Ptsd
+post_traumatic_stress_disorder,stress_disorders,2,Undirected,Post-Traumatic Stress Disorder,Stress Disorders
+ptsd,stress_disorders,3,Undirected,Ptsd,Stress Disorders
+cost_illness,interictal_burden,2,Undirected,Cost Illness,Interictal Burden
+interictal_burden,quality_life,5,Undirected,Interictal Burden,Quality Life
+quality_life,yoga,3,Undirected,Quality Life,Yoga
+behavior_therapy,behavioral_therapy,2,Undirected,Behavior Therapy,Behavioral Therapy
+behavior_therapy,combined_modality_therapy,4,Undirected,Behavior Therapy,Combined Modality Therapy
+behavior_therapy,comorbidity,4,Undirected,Behavior Therapy,Comorbidity
+behavioral_therapy,combined_modality_therapy,2,Undirected,Behavioral Therapy,Combined Modality Therapy
+combined_modality_therapy,medication_overuse_headache,2,Undirected,Combined Modality Therapy,Medication Overuse Headache
+combined_modality_therapy,physiotherapy,2,Undirected,Combined Modality Therapy,Physiotherapy
+comorbidity,medication_overuse_headache,5,Undirected,Comorbidity,Medication Overuse Headache
+anxiety,bipolar,2,Undirected,Anxiety,Bipolar
+bipolar,comorbidity,7,Undirected,Bipolar,Comorbidity
+comorbidity,sleep_apnea,6,Undirected,Comorbidity,Sleep Apnea
+insomnia,sleep_apnea,2,Undirected,Insomnia,Sleep Apnea
+cortical_spreading_depression,stroke,3,Undirected,Cortical Spreading Depression,Stroke
+diet,treatment_outcome,12,Undirected,Diet,Treatment Outcome
+ketogenic_diet,treatment_outcome,4,Undirected,Ketogenic Diet,Treatment Outcome
+absenteeism,burden,3,Undirected,Absenteeism,Burden
+absenteeism,cost,2,Undirected,Absenteeism,Cost
+absenteeism,cost_illness,7,Undirected,Absenteeism,Cost Illness
+absenteeism,disability,4,Undirected,Absenteeism,Disability
+absenteeism,quality_life,10,Undirected,Absenteeism,Quality Life
+burden,cost,3,Undirected,Burden,Cost
+burden,cost_illness,11,Undirected,Burden,Cost Illness
+burden,disability,4,Undirected,Burden,Disability
+burden,quality,2,Undirected,Burden,Quality
+burden,quality_life,18,Undirected,Burden,Quality Life
+cost,cost_illness,3,Undirected,Cost,Cost Illness
+cost,quality_life,3,Undirected,Cost,Quality Life
+cost_illness,disability_adjusted_life_years,2,Undirected,Cost Illness,Disability-Adjusted Life Years
+cost_illness,quality,3,Undirected,Cost Illness,Quality
+disability,quality,4,Undirected,Disability,Quality
+disability_adjusted_life_years,quality_life,2,Undirected,Disability-Adjusted Life Years,Quality Life
+anti_inflammatory_agents,quality_life,7,Undirected,Anti-Inflammatory Agents,Quality Life
+comorbidity,parkinson,4,Undirected,Comorbidity,Parkinson
+acupuncture,sham_acupuncture,4,Undirected,Acupuncture,Sham Acupuncture
+comorbidity,sleep_quality,6,Undirected,Comorbidity,Sleep Quality
+comorbidity,oxidative_stress,3,Undirected,Comorbidity,Oxidative Stress
+comorbidity,inflammatory_bowel_diseases,2,Undirected,Comorbidity,Inflammatory Bowel Diseases
+depression,fibromyalgia,6,Undirected,Depression,Fibromyalgia
+estrogen,estrogens,3,Undirected,Estrogen,Estrogens
+estrogen,quality_life,2,Undirected,Estrogen,Quality Life
+pharmacotherapy,quality_life,2,Undirected,Pharmacotherapy,Quality Life
+comorbidity,quality,3,Undirected,Comorbidity,Quality
+behavior_therapy,quality_life,4,Undirected,Behavior Therapy,Quality Life
+burden,comorbidity,2,Undirected,Burden,Comorbidity
+comorbidity,exercise,3,Undirected,Comorbidity,Exercise
+comorbidity,trigeminal_neuralgia,2,Undirected,Comorbidity,Trigeminal Neuralgia
+anxiety,cost_illness,3,Undirected,Anxiety,Cost Illness
+anxiety,disability,8,Undirected,Anxiety,Disability
+anxiety,insomnia,4,Undirected,Anxiety,Insomnia
+cost_illness,depression,3,Undirected,Cost Illness,Depression
+depression,disability,10,Undirected,Depression,Disability
+depression,insomnia,5,Undirected,Depression,Insomnia
+patent_foramen_ovale,treatment_outcome,13,Undirected,Patent Foramen Ovale,Treatment Outcome
+behavior_therapy,treatment_outcome,4,Undirected,Behavior Therapy,Treatment Outcome
+manual_therapy,quality_life,5,Undirected,Manual Therapy,Quality Life
+alzheimer,comorbidity,2,Undirected,Alzheimer,Comorbidity
+disability_evaluation,headache_related_disability,4,Undirected,Disability Evaluation,Headache-Related Disability
+acupuncture_points,quality_life,6,Undirected,Acupuncture Points,Quality Life
+acupuncture_points,treatment_outcome,18,Undirected,Acupuncture Points,Treatment Outcome
+migraine_therapy,triptans,9,Undirected,Migraine Therapy,Triptans
+quality_life,triptans,8,Undirected,Quality Life,Triptans
+acute_therapy,quality_life,2,Undirected,Acute Therapy,Quality Life
+drug_therapy,migraine_therapy,19,Undirected,Drug Therapy,Migraine Therapy
+combined_modality_therapy,manual_therapy,2,Undirected,Combined Modality Therapy,Manual Therapy
+combined_modality_therapy,quality_life,5,Undirected,Combined Modality Therapy,Quality Life
+manual_therapy,physical_therapy_modalities,3,Undirected,Manual Therapy,Physical Therapy Modalities
+physical_therapy_modalities,quality_life,5,Undirected,Physical Therapy Modalities,Quality Life
+chronic_pain,comorbidity,7,Undirected,Chronic Pain,Comorbidity
+chronic_pain,posttraumatic_stress_disorder,2,Undirected,Chronic Pain,Posttraumatic Stress Disorder
+chronic_pain,stress_disorders,2,Undirected,Chronic Pain,Stress Disorders
+comorbidity,posttraumatic_stress_disorder,4,Undirected,Comorbidity,Posttraumatic Stress Disorder
+parkinson,stress_disorders,2,Undirected,Parkinson,Stress Disorders
+posttraumatic_stress_disorder,stress_disorders,3,Undirected,Posttraumatic Stress Disorder,Stress Disorders
+life_quality,quality_life,2,Undirected,Life Quality,Quality Life
+quality_life,sleep_quality,5,Undirected,Quality Life,Sleep Quality
+diet,dietary_approaches_stop_hypert,5,Undirected,Diet,Dietary Approaches Stop Hypertension
+dietary_approaches_stop_hypert,migraine_therapy,2,Undirected,Dietary Approaches Stop Hypertension,Migraine Therapy
+comorbidity,ischemic_stroke,5,Undirected,Comorbidity,Ischemic Stroke
+ischemic_stroke,stroke,11,Undirected,Ischemic Stroke,Stroke
+fibromyalgia,quality_life,4,Undirected,Fibromyalgia,Quality Life
+medication_overuse_headache,quality_life,10,Undirected,Medication Overuse Headache,Quality Life
+cognitive_behavioral_therapy,psychotherapy,2,Undirected,Cognitive Behavioral Therapy,Psychotherapy
+mindfulness,quality_life,5,Undirected,Mindfulness,Quality Life
+quality_life,self_management,5,Undirected,Quality Life,Self-Management
+disability_evaluation,treatment_outcome,17,Undirected,Disability Evaluation,Treatment Outcome
+aerobic_exercise,exercise,7,Undirected,Aerobic Exercise,Exercise
+aerobic_exercise,quality_life,2,Undirected,Aerobic Exercise,Quality Life
+disability,disability_evaluation,17,Undirected,Disability,Disability Evaluation
+migraine_disability,quality_life,2,Undirected,Migraine Disability,Quality Life
+migraine_disability,treatment_outcome,3,Undirected,Migraine Disability,Treatment Outcome
+cerebrovascular_disease,stroke,6,Undirected,Cerebrovascular Disease,Stroke
+bipolar_disorder,comorbidity,7,Undirected,Bipolar Disorder,Comorbidity
+fibromyalgia,treatment_outcome,2,Undirected,Fibromyalgia,Treatment Outcome
+cost_illness,health_care_costs,4,Undirected,Cost Illness,Health Care Costs
+health_care_costs,quality_life,4,Undirected,Health Care Costs,Quality Life
+central_sensitization,comorbidity,7,Undirected,Central Sensitization,Comorbidity
+comorbidity,drug_therapy,2,Undirected,Comorbidity,Drug Therapy
+acute_treatment,electric_stimulation_therapy,3,Undirected,Acute Treatment,Electric Stimulation Therapy
+acute_treatment,quality_life,3,Undirected,Acute Treatment,Quality Life
+acute_treatment,remote_electrical_neuromodulat,2,Undirected,Acute Treatment,Remote Electrical Neuromodulation
+acute_treatment,treatment_outcome,7,Undirected,Acute Treatment,Treatment Outcome
+electric_stimulation_therapy,remote_electrical_neuromodulat,2,Undirected,Electric Stimulation Therapy,Remote Electrical Neuromodulation
+electric_stimulation_therapy,treatment_outcome,17,Undirected,Electric Stimulation Therapy,Treatment Outcome
+remote_electrical_neuromodulat,treatment_outcome,9,Undirected,Remote Electrical Neuromodulation,Treatment Outcome
+anxiety,anxiety_disorders,7,Undirected,Anxiety,Anxiety Disorders
+chronic_pain,pain_management,6,Undirected,Chronic Pain,Pain Management
+migraine_therapy,pain_management,13,Undirected,Migraine Therapy,Pain Management
+anxiety,fibromyalgia,4,Undirected,Anxiety,Fibromyalgia
+anxiety,quality,4,Undirected,Anxiety,Quality
+depression,quality,3,Undirected,Depression,Quality
+fibromyalgia,quality,2,Undirected,Fibromyalgia,Quality
+botulinum_toxins,migraine_therapy,28,Undirected,Botulinum Toxins,Migraine Therapy
+botulinum_toxins,onabotulinumtoxina,35,Undirected,Botulinum Toxins,Onabotulinumtoxina
+erenumab,onabotulinumtoxina,5,Undirected,Erenumab,Onabotulinumtoxina
+erenumab,quality_life,18,Undirected,Erenumab,Quality Life
+migraine_therapy,onabotulinumtoxina,12,Undirected,Migraine Therapy,Onabotulinumtoxina
+onabotulinumtoxina,quality_life,21,Undirected,Onabotulinumtoxina,Quality Life
+onabotulinumtoxina,treatment_outcome,25,Undirected,Onabotulinumtoxina,Treatment Outcome
+central_sensitization,chronic_pain,2,Undirected,Central Sensitization,Chronic Pain
+anxiety,irritable_bowel_syndrome,2,Undirected,Anxiety,Irritable Bowel Syndrome
+depression,irritable_bowel_syndrome,2,Undirected,Depression,Irritable Bowel Syndrome
+absenteeism,anxiety,2,Undirected,Absenteeism,Anxiety
+anxiety,comorbidities,3,Undirected,Anxiety,Comorbidities
+comorbidity,disease_burden,2,Undirected,Comorbidity,Disease Burden
+comorbidity,prophylactic_treatment,2,Undirected,Comorbidity,Prophylactic Treatment
+cost_illness,disease_burden,3,Undirected,Cost Illness,Disease Burden
+cost_illness,prophylactic_treatment,2,Undirected,Cost Illness,Prophylactic Treatment
+acupuncture,acupuncture_points,19,Undirected,Acupuncture,Acupuncture Points
+comorbidity,parkinson_disease,2,Undirected,Comorbidity,Parkinson Disease
+exercise,physical_therapy_modalities,6,Undirected,Exercise,Physical Therapy Modalities
+medication_overuse_headache,quality,2,Undirected,Medication Overuse Headache,Quality
+medication_overuse_headache,triptans,2,Undirected,Medication Overuse Headache,Triptans
+erenumab,health_related_quality_life,2,Undirected,Erenumab,Health-Related Quality Life
+health_related_quality_life,quality_life,19,Undirected,Health-Related Quality Life,Quality Life
+cerebrovascular,ischemic_stroke,2,Undirected,Cerebrovascular,Ischemic Stroke
+ischemic_stroke,thrombolytic_therapy,2,Undirected,Ischemic Stroke,Thrombolytic Therapy
+ischemic_stroke,treatment_outcome,2,Undirected,Ischemic Stroke,Treatment Outcome
+thrombolytic_therapy,treatment_outcome,6,Undirected,Thrombolytic Therapy,Treatment Outcome
+depression,posttraumatic_stress_disorder,2,Undirected,Depression,Posttraumatic Stress Disorder
+bipolar,bipolar_disorder,2,Undirected,Bipolar,Bipolar Disorder
+manual_therapy,treatment_outcome,3,Undirected,Manual Therapy,Treatment Outcome
+acupuncture,acupuncture_therapy,50,Undirected,Acupuncture,Acupuncture Therapy
+acupuncture,chronic_pain,2,Undirected,Acupuncture,Chronic Pain
+acupuncture_therapy,chronic_pain,2,Undirected,Acupuncture Therapy,Chronic Pain
+disability,manual_therapy,3,Undirected,Disability,Manual Therapy
+health_related_quality_life,treatment_outcome,5,Undirected,Health-Related Quality Life,Treatment Outcome
+comorbidities,depression,4,Undirected,Comorbidities,Depression
+comorbidities,quality_life,3,Undirected,Comorbidities,Quality Life
+disability,medication_overuse_headache,2,Undirected,Disability,Medication Overuse Headache
+botulinum_toxins,disability,3,Undirected,Botulinum Toxins,Disability
+botulinum_toxins,disability_evaluation,2,Undirected,Botulinum Toxins,Disability Evaluation
+disability,onabotulinumtoxina,3,Undirected,Disability,Onabotulinumtoxina
+disease_burden,quality,2,Undirected,Disease Burden,Quality
+disease_burden,quality_life,3,Undirected,Disease Burden,Quality Life
+quality,social_stigma,2,Undirected,Quality,Social Stigma
+neuromodulation,treatment_outcome,24,Undirected,Neuromodulation,Treatment Outcome
+comorbidity,restless_legs,5,Undirected,Comorbidity,Restless Legs
+depression,restless_legs_syndrome,3,Undirected,Depression,Restless Legs Syndrome
+restless_legs,restless_legs_syndrome,3,Undirected,Restless Legs,Restless Legs Syndrome
+quality_life,treatment_patterns,2,Undirected,Quality Life,Treatment Patterns
+medication_overuse,migraine_therapy,4,Undirected,Medication Overuse,Migraine Therapy
+central_nervous_sensitization,central_sensitization,2,Undirected,Central Nervous Sensitization,Central Sensitization
+central_nervous_sensitization,comorbidity,4,Undirected,Central Nervous Sensitization,Comorbidity
+monoclonal_antibodies,preventive_treatment,3,Undirected,Monoclonal Antibodies,Preventive Treatment
+monoclonal_antibodies,quality,2,Undirected,Monoclonal Antibodies,Quality
+electric_stimulation_therapy,pain_management,5,Undirected,Electric Stimulation Therapy,Pain Management
+neuromodulation,pain_management,9,Undirected,Neuromodulation,Pain Management
+comorbidity,health_related_quality_life,2,Undirected,Comorbidity,Health-Related Quality Life
+disability,health_related_quality_life,3,Undirected,Disability,Health-Related Quality Life
+disability_evaluation,health_related_quality_life,4,Undirected,Disability Evaluation,Health-Related Quality Life
+medication_overuse_headache,migraine_therapy,6,Undirected,Medication Overuse Headache,Migraine Therapy
+anxiety_disorders,depression,8,Undirected,Anxiety Disorders,Depression
+cardiovascular,cardiovascular_diseases,2,Undirected,Cardiovascular,Cardiovascular Diseases
+cardiovascular_diseases,comorbidity,4,Undirected,Cardiovascular Diseases,Comorbidity
+cardiovascular_diseases,depression,2,Undirected,Cardiovascular Diseases,Depression
+depression,treatment_outcome,9,Undirected,Depression,Treatment Outcome
+fremanezumab,quality_life,10,Undirected,Fremanezumab,Quality Life
+acupuncture_points,acupuncture_therapy,19,Undirected,Acupuncture Points,Acupuncture Therapy
+anxiety,stress_disorders,2,Undirected,Anxiety,Stress Disorders
+depression,stress_disorders,4,Undirected,Depression,Stress Disorders
+depression,disability_evaluation,4,Undirected,Depression,Disability Evaluation
+central_sensitization,fibromyalgia,2,Undirected,Central Sensitization,Fibromyalgia
+central_sensitization,quality_life,3,Undirected,Central Sensitization,Quality Life
+chronic_pain,fibromyalgia,2,Undirected,Chronic Pain,Fibromyalgia
+depression,migraine_therapy,5,Undirected,Depression,Migraine Therapy
+depression,sleep_quality,4,Undirected,Depression,Sleep Quality
+dietary,migraine_therapy,2,Undirected,Dietary,Migraine Therapy
+dietary,quality_life,5,Undirected,Dietary,Quality Life
+dietary,treatment_outcome,2,Undirected,Dietary,Treatment Outcome
+migraine_therapy,sleep_quality,2,Undirected,Migraine Therapy,Sleep Quality
+sleep_quality,treatment_outcome,3,Undirected,Sleep Quality,Treatment Outcome
+anxiety,disability_evaluation,3,Undirected,Anxiety,Disability Evaluation
+anti_cgrp_monoclonal_antibodie,botulinum_toxins,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Botulinum Toxins
+anti_cgrp_monoclonal_antibodie,drug_therapy,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Drug Therapy
+anti_cgrp_monoclonal_antibodie,onabotulinumtoxina,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Onabotulinumtoxina
+anti_cgrp_monoclonal_antibodie,quality_life,3,Undirected,Anti-Cgrp Monoclonal Antibodies,Quality Life
+anti_cgrp_monoclonal_antibodie,treatment_outcome,5,Undirected,Anti-Cgrp Monoclonal Antibodies,Treatment Outcome
+botulinum_toxins,drug_therapy,7,Undirected,Botulinum Toxins,Drug Therapy
+drug_therapy,onabotulinumtoxina,3,Undirected,Drug Therapy,Onabotulinumtoxina
+cerebrovascular,epilepsy,2,Undirected,Cerebrovascular,Epilepsy
+cerebrovascular,stroke,2,Undirected,Cerebrovascular,Stroke
+chronic_therapy,quality_life,2,Undirected,Chronic Therapy,Quality Life
+migraine_therapy,preventive_treatment,7,Undirected,Migraine Therapy,Preventive Treatment
+preventive_treatment,quality_life,7,Undirected,Preventive Treatment,Quality Life
+anxiety,medication_overuse_headache,2,Undirected,Anxiety,Medication-Overuse Headache
+comorbidity,medication_overuse_headache,3,Undirected,Comorbidity,Medication-Overuse Headache
+cost_benefit,quality_life,10,Undirected,Cost-Benefit,Quality Life
+combined_modality_therapy,treatment_outcome,12,Undirected,Combined Modality Therapy,Treatment Outcome
+medication_overuse_headache,treatment_outcome,8,Undirected,Medication Overuse Headache,Treatment Outcome
+treatment_outcome,treatment_response,3,Undirected,Treatment Outcome,Treatment Response
+botulinum_toxins,medication_overuse_headache,3,Undirected,Botulinum Toxins,Medication Overuse Headache
+medication_overuse_headache,onabotulinumtoxina,3,Undirected,Medication Overuse Headache,Onabotulinumtoxina
+asthma,comorbidity,6,Undirected,Asthma,Comorbidity
+comorbidities,treatment_outcome,2,Undirected,Comorbidities,Treatment Outcome
+acute_treatment,anti_inflammatory_agents,3,Undirected,Acute Treatment,Anti-Inflammatory Agents
+acute_treatment,comorbidity,2,Undirected,Acute Treatment,Comorbidity
+disability,interictal_burden,2,Undirected,Disability,Interictal Burden
+disability,work_productivity,2,Undirected,Disability,Work Productivity
+depression,irritable_bowel,3,Undirected,Depression,Irritable Bowel
+behavioral_therapy,biofeedback,3,Undirected,Behavioral Therapy,Biofeedback
+disability_evaluation,exercise,3,Undirected,Disability Evaluation,Exercise
+behavior_therapy,disability,2,Undirected,Behavior Therapy,Disability
+disability,yoga,2,Undirected,Disability,Yoga
+acupuncture,menstrual_migraine,2,Undirected,Acupuncture,Menstrual Migraine
+acupuncture,migraine_therapy,5,Undirected,Acupuncture,Migraine Therapy
+menstrual_migraine,migraine_therapy,2,Undirected,Menstrual Migraine,Migraine Therapy
+menstrual_migraine,treatment_outcome,5,Undirected,Menstrual Migraine,Treatment Outcome
+comorbidity,medication_overuse,2,Undirected,Comorbidity,Medication Overuse
+disability,medication_overuse,2,Undirected,Disability,Medication Overuse
+medication_overuse,quality_life,6,Undirected,Medication Overuse,Quality Life
+anxiety,botulinum_toxins,5,Undirected,Anxiety,Botulinum Toxins
+botulinum_toxins,comorbidity,2,Undirected,Botulinum Toxins,Comorbidity
+central_sensitization,irritable_bowel,2,Undirected,Central Sensitization,Irritable Bowel
+acupuncture_points,prophylactic_treatment,2,Undirected,Acupuncture Points,Prophylactic Treatment
+prophylactic_treatment,quality_life,8,Undirected,Prophylactic Treatment,Quality Life
+prophylactic_treatment,treatment_outcome,8,Undirected,Prophylactic Treatment,Treatment Outcome
+anxiety,onabotulinumtoxina,3,Undirected,Anxiety,Onabotulinumtoxina
+botulinum_toxins,medication_overuse,6,Undirected,Botulinum Toxins,Medication Overuse
+medication_overuse,onabotulinumtoxina,3,Undirected,Medication Overuse,Onabotulinumtoxina
+anxiety,sleep_quality,2,Undirected,Anxiety,Sleep Quality
+anxiety,treatment_outcome,7,Undirected,Anxiety,Treatment Outcome
+electroacupuncture,treatment_outcome,6,Undirected,Electroacupuncture,Treatment Outcome
+treatment_outcome,yoga,3,Undirected,Treatment Outcome,Yoga
+comorbidity,health_care_costs,2,Undirected,Comorbidity,Health Care Costs
+acupuncture_therapy,migraine_therapy,3,Undirected,Acupuncture Therapy,Migraine Therapy
+cost_benefit,quality_adjusted_life_years,5,Undirected,Cost-Benefit,Quality-Adjusted Life Years
+quality_life,quality_adjusted_life_years,5,Undirected,Quality Life,Quality-Adjusted Life Years
+anxiety,psychiatric_comorbidity,2,Undirected,Anxiety,Psychiatric Comorbidity
+pulsed_radiofrequency_treatmen,treatment_outcome,4,Undirected,Pulsed Radiofrequency Treatment,Treatment Outcome
+anxiety,central_nervous_sensitization,2,Undirected,Anxiety,Central Nervous Sensitization
+central_nervous_sensitization,depression,2,Undirected,Central Nervous Sensitization,Depression
+central_nervous_sensitization,irritable_bowel,2,Undirected,Central Nervous Sensitization,Irritable Bowel
+disability,treatment_outcome,9,Undirected,Disability,Treatment Outcome
+progressive_muscle_relaxation,treatment_outcome,2,Undirected,Progressive Muscle Relaxation,Treatment Outcome
+exercise_therapy,quality_life,2,Undirected,Exercise Therapy,Quality Life
+cardiovascular_diseases,stroke,4,Undirected,Cardiovascular Diseases,Stroke
+self_management,treatment_outcome,2,Undirected,Self-Management,Treatment Outcome
+cardiovascular_diseases,cerebrovascular_disorders,3,Undirected,Cardiovascular Diseases,Cerebrovascular Disorders
+cerebrovascular_disorders,stroke,2,Undirected,Cerebrovascular Disorders,Stroke
+depression,hypertension,3,Undirected,Depression,Hypertension
+anxiety,stress,6,Undirected,Anxiety,Stress
+depression,stress,6,Undirected,Depression,Stress
+bipolar,cardiovascular,2,Undirected,Bipolar,Cardiovascular
+comorbidities,epilepsy,2,Undirected,Comorbidities,Epilepsy
+cognitive_behavioral_therapy,depression,2,Undirected,Cognitive Behavioral Therapy,Depression
+depression,psychiatric_comorbidity,2,Undirected,Depression,Psychiatric Comorbidity
+stroke,therapy,3,Undirected,Stroke,Therapy
+bipolar,parkinson,2,Undirected,Bipolar,Parkinson
+exercise,stress,2,Undirected,Exercise,Stress
+sleep_quality,stress,2,Undirected,Sleep Quality,Stress
+disability,disease_burden,2,Undirected,Disability,Disease Burden
+migraine_therapy,stress,3,Undirected,Migraine Therapy,Stress
+stroke,treatment_outcome,7,Undirected,Stroke,Treatment Outcome
+diet,diet_therapy,3,Undirected,Diet,Diet Therapy
+diet,triggers,3,Undirected,Diet,Triggers
+diet_therapy,triggers,2,Undirected,Diet Therapy,Triggers
+estrogen,hormonal_contraception,2,Undirected,Estrogen,Hormonal Contraception
+estrogen,stroke,2,Undirected,Estrogen,Stroke
+cryptogenic_stroke,patent_foramen_ovale,2,Undirected,Cryptogenic Stroke,Patent Foramen Ovale
+treatment_outcome,trigger_points,5,Undirected,Treatment Outcome,Trigger Points
+stroke,thrombolytic_therapy,2,Undirected,Stroke,Thrombolytic Therapy
+hemorrhagic_stroke,ischemic_stroke,2,Undirected,Hemorrhagic Stroke,Ischemic Stroke
+hemorrhagic_stroke,stroke,3,Undirected,Hemorrhagic Stroke,Stroke
+ischemic_stroke,triptans,2,Undirected,Ischemic Stroke,Triptans
+stroke,triptans,2,Undirected,Stroke,Triptans
+anti_inflammatory_dosage,oxidative_stress,2,Undirected,Anti-Inflammatory Dosage,Oxidative Stress
+anti_inflammatory_dosage,quality_life,2,Undirected,Anti-Inflammatory Dosage,Quality Life
+anti_inflammatory_dosage,treatment_outcome,2,Undirected,Anti-Inflammatory Dosage,Treatment Outcome
+dietary,oxidative_stress,2,Undirected,Dietary,Oxidative Stress
+oxidative_stress,quality_life,7,Undirected,Oxidative Stress,Quality Life
+oxidative_stress,treatment_outcome,3,Undirected,Oxidative Stress,Treatment Outcome
+dietary_supplements,quality_life,9,Undirected,Dietary Supplements,Quality Life
+monoclonal_antibodies,quality_life,9,Undirected,Monoclonal Antibodies,Quality Life
+menstrual_migraine,menstrually_related_migraine,3,Undirected,Menstrual Migraine,Menstrually Related Migraine
+menstrually_related_migraine,quality_life,3,Undirected,Menstrually Related Migraine,Quality Life
+menstrually_related_migraine,treatment_outcome,3,Undirected,Menstrually Related Migraine,Treatment Outcome
+cost_illness,work_productivity,5,Undirected,Cost Illness,Work Productivity
+quality_life,work_productivity,9,Undirected,Quality Life,Work Productivity
+botulinum_toxin_type,botulinum_toxins,10,Undirected,Botulinum Toxin Type,Botulinum Toxins
+botulinum_toxin_type,migraine_therapy,5,Undirected,Botulinum Toxin Type,Migraine Therapy
+botulinum_toxin_type,quality_life,7,Undirected,Botulinum Toxin Type,Quality Life
+mindfulness,treatment_outcome,6,Undirected,Mindfulness,Treatment Outcome
+dietary_supplements,oxidative_stress,4,Undirected,Dietary Supplements,Oxidative Stress
+quality_life,treatment_failure,5,Undirected,Quality Life,Treatment Failure
+treatment_failure,treatment_outcome,5,Undirected,Treatment Failure,Treatment Outcome
+treatment_outcome,work_productivity,2,Undirected,Treatment Outcome,Work Productivity
+quality_life,trigger,3,Undirected,Quality Life,Trigger
+cost_benefit,migraine_therapy,3,Undirected,Cost-Benefit,Migraine Therapy
+cost_benefit,treatment_outcome,3,Undirected,Cost-Benefit,Treatment Outcome
+botulinum_toxin_type,onabotulinumtoxina,3,Undirected,Botulinum Toxin Type,Onabotulinumtoxina
+botulinum_toxin_type,prophylactic_treatment,3,Undirected,Botulinum Toxin Type,Prophylactic Treatment
+botulinum_toxins,prophylactic_treatment,4,Undirected,Botulinum Toxins,Prophylactic Treatment
+migraine_therapy,prophylactic_treatment,3,Undirected,Migraine Therapy,Prophylactic Treatment
+onabotulinumtoxina,prophylactic_treatment,2,Undirected,Onabotulinumtoxina,Prophylactic Treatment
+botulinum_toxin,botulinum_toxins,10,Undirected,Botulinum Toxin,Botulinum Toxins
+botulinum_toxin,migraine_therapy,2,Undirected,Botulinum Toxin,Migraine Therapy
+botulinum_toxin,quality_life,4,Undirected,Botulinum Toxin,Quality Life
+botulinum_toxin,treatment_outcome,6,Undirected,Botulinum Toxin,Treatment Outcome
+migraine_therapy,treatment_failure,2,Undirected,Migraine Therapy,Treatment Failure
+botulinum_toxins,onabotulinum_toxin,2,Undirected,Botulinum Toxins,Onabotulinum Toxin
+botulinum_toxins,therapy,11,Undirected,Botulinum Toxins,Therapy
+onabotulinum_toxin,quality_life,2,Undirected,Onabotulinum Toxin,Quality Life
+onabotulinum_toxin,treatment_outcome,3,Undirected,Onabotulinum Toxin,Treatment Outcome
+diet,dietary,2,Undirected,Diet,Dietary
+botulinum_toxin_type,treatment_outcome,4,Undirected,Botulinum Toxin Type,Treatment Outcome
+botulinum_toxins,monoclonal_antibodies,2,Undirected,Botulinum Toxins,Monoclonal Antibodies
+botulinum_toxins,onabotulinumtoxin,3,Undirected,Botulinum Toxins,Onabotulinumtoxin
+monoclonal_antibodies,treatment_outcome,11,Undirected,Monoclonal Antibodies,Treatment Outcome
+onabotulinumtoxin,quality_life,3,Undirected,Onabotulinumtoxin,Quality Life
+migraine_specific_quality_life,quality_life,2,Undirected,Migraine-Specific Quality Life Questionnaire,Quality Life
+migraine_therapy,preventive_migraine_treatment,3,Undirected,Migraine Therapy,Preventive Migraine Treatment
+preventive_migraine_treatment,quality_life,2,Undirected,Preventive Migraine Treatment,Quality Life
+preventive_migraine_treatment,treatment_outcome,2,Undirected,Preventive Migraine Treatment,Treatment Outcome
+preventive_therapy,quality_life,3,Undirected,Preventive Therapy,Quality Life
+cost_illness,costs,3,Undirected,Cost Illness,Costs
+cost_illness,health_related_quality_life,4,Undirected,Cost Illness,Health-Related Quality Life
+costs,quality_life,3,Undirected,Costs,Quality Life
+costs,work_productivity,2,Undirected,Costs,Work Productivity
+health_related_quality_life,work_productivity,2,Undirected,Health-Related Quality Life,Work Productivity
+light_therapy,treatment_outcome,2,Undirected,Light Therapy,Treatment Outcome
+botulinum_toxins,cost_effectiveness,2,Undirected,Botulinum Toxins,Cost-Effectiveness
+botulinum_toxins,health_care_costs,2,Undirected,Botulinum Toxins,Health Care Costs
+botulinum_toxins,quality_adjusted_life_years,2,Undirected,Botulinum Toxins,Quality-Adjusted Life Years
+burden,health_care_costs,2,Undirected,Burden,Health Care Costs
+burden,treatment_outcome,3,Undirected,Burden,Treatment Outcome
+cost_illness,therapy,2,Undirected,Cost Illness,Therapy
+cost_illness,treatment_outcome,3,Undirected,Cost Illness,Treatment Outcome
+cost_benefit,cost_effectiveness,3,Undirected,Cost-Benefit,Cost-Effectiveness
+cost_effectiveness,quality_life,3,Undirected,Cost-Effectiveness,Quality Life
+cost_effectiveness,quality_adjusted_life_years,4,Undirected,Cost-Effectiveness,Quality-Adjusted Life Years
+onabotulinumtoxina,therapy,5,Undirected,Onabotulinumtoxina,Therapy
+disability_evaluation,work_productivity,2,Undirected,Disability Evaluation,Work Productivity
+anxiety,health_related_quality_life,2,Undirected,Anxiety,Health-Related Quality Life
+anxiety_disorders,health_related_quality_life,2,Undirected,Anxiety Disorders,Health-Related Quality Life
+depression,health_related_quality_life,3,Undirected,Depression,Health-Related Quality Life
+erenumab,monoclonal_antibodies,4,Undirected,Erenumab,Monoclonal Antibodies
+dietary_supplements,migraine_disability_assessment,2,Undirected,Dietary Supplements,Migraine Disability Assessment
+dietary_supplements,migraine_specific_quality_life,2,Undirected,Dietary Supplements,Migraine-Specific Quality Life
+migraine_disability_assessment,migraine_specific_quality_life,2,Undirected,Migraine Disability Assessment,Migraine-Specific Quality Life
+migraine_disability_assessment,quality_life,2,Undirected,Migraine Disability Assessment,Quality Life
+migraine_specific_quality_life,oxidative_stress,2,Undirected,Migraine-Specific Quality Life,Oxidative Stress
+migraine_specific_quality_life,quality_life,4,Undirected,Migraine-Specific Quality Life,Quality Life
+migraine_without_therapy,quality_life,2,Undirected,Migraine Without Therapy,Quality Life
+acupuncture,botulinum_toxins,2,Undirected,Acupuncture,Botulinum Toxins
+acupuncture,topiramate,5,Undirected,Acupuncture,Topiramate
+anti_inflammatory_agents,triptans,6,Undirected,Anti-Inflammatory Agents,Triptans
+quality_life,vestibular_therapy,2,Undirected,Quality Life,Vestibular Therapy
+interictal_burden,migraine_therapy,2,Undirected,Interictal Burden,Migraine Therapy
+cost_illness,migraine_therapy,4,Undirected,Cost Illness,Migraine Therapy
+quality_life,tension_type_therapy,3,Undirected,Quality Life,Tension-Type Therapy
+anxiety,life_quality,2,Undirected,Anxiety,Life Quality
+disability_evaluation,quality,6,Undirected,Disability Evaluation,Quality
+disease_burden,health_related_quality_life,2,Undirected,Disease Burden,Health-Related Quality Life
+medication_overuse_headache,quality_life,2,Undirected,Medication-Overuse Headache,Quality Life
+burden,treatment,3,Undirected,Burden,Treatment
+burden,triptans,2,Undirected,Burden,Triptans
+migraine_therapy,treatment,8,Undirected,Migraine Therapy,Treatment
+disability_adjusted_life_years,global_burden_disease,2,Undirected,Disability-Adjusted Life Years,Global Burden Disease
+disability,migraine_therapy,3,Undirected,Disability,Migraine Therapy
+disability,mindfulness,3,Undirected,Disability,Mindfulness
+disability,therapy,2,Undirected,Disability,Therapy
+medication_overuse_headache,therapy,2,Undirected,Medication Overuse Headache,Therapy
+migraine_therapy,mindfulness,3,Undirected,Migraine Therapy,Mindfulness
+mindfulness,therapy,2,Undirected,Mindfulness,Therapy
+absenteeism,presenteeism,5,Undirected,Absenteeism,Presenteeism
+presenteeism,quality_life,4,Undirected,Presenteeism,Quality Life
+fremanezumab,monoclonal_antibodies,4,Undirected,Fremanezumab,Monoclonal Antibodies
+headache_therapy,quality_life,2,Undirected,Headache Therapy,Quality Life
+disability_evaluation,stigma,2,Undirected,Disability Evaluation,Stigma
+botulinum_toxin,onabotulinumtoxina,5,Undirected,Botulinum Toxin,Onabotulinumtoxina
+botulinum_toxin,therapy,2,Undirected,Botulinum Toxin,Therapy
+dietary_supplements,migraine_therapy,6,Undirected,Dietary Supplements,Migraine Therapy
+dietary_supplements,treatment_outcome,11,Undirected,Dietary Supplements,Treatment Outcome
+migraine_disability_assessment,treatment_outcome,3,Undirected,Migraine Disability Assessment,Treatment Outcome
+behavior_therapy,migraine_therapy,3,Undirected,Behavior Therapy,Migraine Therapy
+prophylactic_treatment,topiramate,2,Undirected,Prophylactic Treatment,Topiramate
+migraine_therapy,monoclonal_antibodies,10,Undirected,Migraine Therapy,Monoclonal Antibodies
+absenteeism,work_productivity,3,Undirected,Absenteeism,Work Productivity
+disability,presenteeism,3,Undirected,Disability,Presenteeism
+presenteeism,stigma,2,Undirected,Presenteeism,Stigma
+aerobic_exercise,exercise_therapy,4,Undirected,Aerobic Exercise,Exercise Therapy
+exercise,exercise_therapy,9,Undirected,Exercise,Exercise Therapy
+insomnia,quality_life,2,Undirected,Insomnia,Quality Life
+social_stigma,stigmatization,2,Undirected,Social Stigma,Stigmatization
+quality,sleep_quality,2,Undirected,Quality,Sleep Quality
+disability_evaluation,stress,2,Undirected,Disability Evaluation,Stress
+quality,stress,2,Undirected,Quality,Stress
+migraine_specific_quality_life,quality,2,Undirected,Migraine-Specific Quality Life,Quality
+disability_evaluation,erenumab,2,Undirected,Disability Evaluation,Erenumab
+disability_evaluation,migraine_therapy,5,Undirected,Disability Evaluation,Migraine Therapy
+migraine_therapy,preventive_therapy,2,Undirected,Migraine Therapy,Preventive Therapy
+preventive_therapy,treatment_outcome,3,Undirected,Preventive Therapy,Treatment Outcome
+medication_overuse,treatment_outcome,4,Undirected,Medication Overuse,Treatment Outcome
+botulinum_toxins,preventive_treatment,3,Undirected,Botulinum Toxins,Preventive Treatment
+onabotulinumtoxina,preventive_treatment,2,Undirected,Onabotulinumtoxina,Preventive Treatment
+preventive_treatment,therapy,2,Undirected,Preventive Treatment,Therapy
+preventive_treatment,treatment_outcome,7,Undirected,Preventive Treatment,Treatment Outcome
+epilepsy,treatment_outcome,5,Undirected,Epilepsy,Treatment Outcome
+migraine_without_therapy,treatment_outcome,2,Undirected,Migraine Without Therapy,Treatment Outcome
+medication_overuse_headache,prophylactic_treatment,2,Undirected,Medication Overuse Headache,Prophylactic Treatment
+migraine_therapy,oxidative_stress,2,Undirected,Migraine Therapy,Oxidative Stress
+absenteeism,health_related_quality_life,2,Undirected,Absenteeism,Health-Related Quality Life
+pain_management,therapy,3,Undirected,Pain Management,Therapy
+burden,health_related_quality_life,3,Undirected,Burden,Health-Related Quality Life
+galcanezumab,monoclonal_antibodies,2,Undirected,Galcanezumab,Monoclonal Antibodies
+health_related_quality_life,migraine_therapy,3,Undirected,Health-Related Quality Life,Migraine Therapy
+interventional,migraine_therapy,2,Undirected,Interventional,Migraine Therapy
+erenumab,prophylactic_treatment,2,Undirected,Erenumab,Prophylactic Treatment
+botulinum_toxins,depression,2,Undirected,Botulinum Toxins,Depression
+depression,onabotulinumtoxina,2,Undirected,Depression,Onabotulinumtoxina
+onabotulinumtoxina,topiramate,5,Undirected,Onabotulinumtoxina,Topiramate
+disability_evaluation,medication_overuse_headache,2,Undirected,Disability Evaluation,Medication Overuse Headache
+stress,treatment_outcome,2,Undirected,Stress,Treatment Outcome
+anti_inflammatory_agents,migraine_therapy,13,Undirected,Anti-Inflammatory Agents,Migraine Therapy
+anti_inflammatory_agents,therapy,2,Undirected,Anti-Inflammatory Agents,Therapy
+migraine_therapy,migraine_specific_quality_life,2,Undirected,Migraine Therapy,Migraine-Specific Quality Life
+depression,dietary_supplements,2,Undirected,Depression,Dietary Supplements
+botulinum_toxins,treatment,4,Undirected,Botulinum Toxins,Treatment
+headache_therapy,migraine_therapy,2,Undirected,Headache Therapy,Migraine Therapy
+treatment,treatment_outcome,11,Undirected,Treatment,Treatment Outcome
+health_related_quality_life,therapy,2,Undirected,Health-Related Quality Life,Therapy
+drug_treatment,migraine_therapy,3,Undirected,Drug Treatment,Migraine Therapy
+drug_treatment,treatment_outcome,2,Undirected,Drug Treatment,Treatment Outcome
+treatment_outcome,trigger,2,Undirected,Treatment Outcome,Trigger
+disability,treatment,2,Undirected,Disability,Treatment
+burden,work_productivity,2,Undirected,Burden,Work Productivity
+diet,elimination_diet,3,Undirected,Diet,Elimination Diet
+migraine_therapy,self_management,2,Undirected,Migraine Therapy,Self-Management
+disability_evaluation,presenteeism,2,Undirected,Disability Evaluation,Presenteeism
+migraine_therapy,stroke,3,Undirected,Migraine Therapy,Stroke
+cardiovascular,migraine_therapy,2,Undirected,Cardiovascular,Migraine Therapy
+cardiovascular,cardiovascular_disease,7,Undirected,Cardiovascular,Cardiovascular Disease
+estrogen,menopause,2,Undirected,Estrogen,Menopause
+cardiovascular,cerebrovascular_disease,3,Undirected,Cardiovascular,Cerebrovascular Disease
+cardiovascular,stroke,7,Undirected,Cardiovascular,Stroke
+cardiovascular_disease,cerebrovascular_disease,3,Undirected,Cardiovascular Disease,Cerebrovascular Disease
+cardiovascular_disease,stroke,5,Undirected,Cardiovascular Disease,Stroke
+cerebrovascular_disease,ischemic_stroke,2,Undirected,Cerebrovascular Disease,Ischemic Stroke
+behavior_therapy,behavioral_treatment,2,Undirected,Behavior Therapy,Behavioral Treatment
+treatment_outcome,vascular,2,Undirected,Treatment Outcome,Vascular
+disease_management,treatment_outcome,2,Undirected,Disease Management,Treatment Outcome
+bipolar_disorder,epilepsy,3,Undirected,Bipolar Disorder,Epilepsy
+hormonal,stroke,2,Undirected,Hormonal,Stroke
+amitriptyline,topiramate,6,Undirected,Amitriptyline,Topiramate
+cardiovascular_disease,cardiovascular_diseases,2,Undirected,Cardiovascular Disease,Cardiovascular Diseases
+stroke,stroke_young_adults,3,Undirected,Stroke,Stroke Young Adults
+estrogens,stroke,2,Undirected,Estrogens,Stroke
+hypertension,therapy,2,Undirected,Hypertension,Therapy
+acupuncture,auricular_acupuncture,4,Undirected,Acupuncture,Auricular Acupuncture
+acute_treatment,migraine_therapy,2,Undirected,Acute Treatment,Migraine Therapy
+acute_treatment,triptans,4,Undirected,Acute Treatment,Triptans
+migraine_therapy,migraine_treatment,3,Undirected,Migraine Therapy,Migraine Treatment
+radiotherapy,stroke,4,Undirected,Radiotherapy,Stroke
+diet,therapy,2,Undirected,Diet,Therapy
+diet,dietary_supplements,3,Undirected,Diet,Dietary Supplements
+interventional,treatment_outcome,3,Undirected,Interventional,Treatment Outcome
+migraine_therapy,molecular_targeted_therapy,3,Undirected,Migraine Therapy,Molecular Targeted Therapy
+molecular_targeted_therapy,monoclonal_antibodies,4,Undirected,Molecular Targeted Therapy,Monoclonal Antibodies
+molecular_targeted_therapy,therapy,2,Undirected,Molecular Targeted Therapy,Therapy
+monoclonal_antibodies,therapy,3,Undirected,Monoclonal Antibodies,Therapy
+dietary_supplements,therapy,2,Undirected,Dietary Supplements,Therapy
+drug_therapy,triptans,6,Undirected,Drug Therapy,Triptans
+treatment_outcome,triptans,6,Undirected,Treatment Outcome,Triptans
+drug_therapy,treatment_failure,2,Undirected,Drug Therapy,Treatment Failure
+anti_inflammatory_agents,combined_modality_therapy,2,Undirected,Anti-Inflammatory Agents,Combined Modality Therapy
+combined_modality_therapy,migraine_therapy,3,Undirected,Combined Modality Therapy,Migraine Therapy
+anti_inflammatory_agents,treatment_outcome,13,Undirected,Anti-Inflammatory Agents,Treatment Outcome
+exercise,yoga,2,Undirected,Exercise,Yoga
+acupuncture,electroacupuncture,3,Undirected,Acupuncture,Electroacupuncture
+acupuncture_analgesia,treatment_outcome,2,Undirected,Acupuncture Analgesia,Treatment Outcome
+external_trigeminal_nerve_stim,neuromodulation,4,Undirected,External Trigeminal Nerve Stimulation,Neuromodulation
+external_trigeminal_nerve_stim,pain_management,2,Undirected,External Trigeminal Nerve Stimulation,Pain Management
+external_trigeminal_nerve_stim,treatment_outcome,3,Undirected,External Trigeminal Nerve Stimulation,Treatment Outcome
+acupuncture_points,sham_acupuncture,2,Undirected,Acupuncture Points,Sham Acupuncture
+acupuncture_therapy,sham_acupuncture,4,Undirected,Acupuncture Therapy,Sham Acupuncture
+neuromodulation,trigeminal_nerve,6,Undirected,Neuromodulation,Trigeminal Nerve
+duration_therapy,treatment_outcome,2,Undirected,Duration Therapy,Treatment Outcome
+retreatment,treatment_outcome,3,Undirected,Retreatment,Treatment Outcome
+acupuncture_therapy,topiramate,3,Undirected,Acupuncture Therapy,Topiramate
+botulinum_neurotoxin,botulinum_toxins,3,Undirected,Botulinum Neurotoxin,Botulinum Toxins
+botulinum_toxins,disease_management,3,Undirected,Botulinum Toxins,Disease Management
+molecular_targeted_therapy,trigeminal,3,Undirected,Molecular Targeted Therapy,Trigeminal
+diet_therapy,dietary_supplements,3,Undirected,Diet Therapy,Dietary Supplements
+drug_therapy,pain_management,3,Undirected,Drug Therapy,Pain Management
+anti_inflammatory_agents,treatment,3,Undirected,Anti-Inflammatory Agents,Treatment
+treatment,trigeminal,3,Undirected,Treatment,Trigeminal
+botulinum_toxins,chronic_therapy,3,Undirected,Botulinum Toxins,Chronic Therapy
+botulinum_toxins,withholding_treatment,2,Undirected,Botulinum Toxins,Withholding Treatment
+electric_stimulation_therapy,magnetic_field_therapy,2,Undirected,Electric Stimulation Therapy,Magnetic Field Therapy
+magnetic_field_therapy,neuromodulation,2,Undirected,Magnetic Field Therapy,Neuromodulation
+dietary_supplements,drug_therapy,3,Undirected,Dietary Supplements,Drug Therapy
+pain_management,treatment,3,Undirected,Pain Management,Treatment
+time_to_treatment,treatment_outcome,2,Undirected,Time-To-Treatment,Treatment Outcome
+fluid_therapy,treatment_outcome,3,Undirected,Fluid Therapy,Treatment Outcome
+biofeedback,combined_modality_therapy,3,Undirected,Biofeedback,Combined Modality Therapy
+cognitive_behavioral_therapy,combined_modality_therapy,2,Undirected,Cognitive Behavioral Therapy,Combined Modality Therapy
+epilepsy,migraine_therapy,4,Undirected,Epilepsy,Migraine Therapy
+epilepsy,therapy,2,Undirected,Epilepsy,Therapy
+combined_modality_therapy,topiramate,2,Undirected,Combined Modality Therapy,Topiramate
+behavior_therapy,biofeedback,2,Undirected,Behavior Therapy,Biofeedback
+behavior_therapy,relaxation_therapy,2,Undirected,Behavior Therapy,Relaxation Therapy
+behavioral_treatment,relaxation,2,Undirected,Behavioral Treatment,Relaxation
+biofeedback,exercise_therapy,2,Undirected,Biofeedback,Exercise Therapy
+biofeedback,relaxation,5,Undirected,Biofeedback,Relaxation
+combined_modality_therapy,exercise_therapy,2,Undirected,Combined Modality Therapy,Exercise Therapy
+exercise_therapy,relaxation_therapy,2,Undirected,Exercise Therapy,Relaxation Therapy
+relaxation,relaxation_therapy,3,Undirected,Relaxation,Relaxation Therapy
+drug_therapy,fremanezumab,2,Undirected,Drug Therapy,Fremanezumab
+disability,exercise,4,Undirected,Disability,Exercise
+pain_management,trigeminal_nerve,5,Undirected,Pain Management,Trigeminal Nerve
+anti_inflammatory_agents,attack_treatment,2,Undirected,Anti-Inflammatory Agents,Attack Treatment
+botulinum_toxins,combined_modality_therapy,2,Undirected,Botulinum Toxins,Combined Modality Therapy
+interventional,pulsed_radiofrequency_treatmen,2,Undirected,Interventional,Pulsed Radiofrequency Treatment
+anti_inflammatory_agents,drug_therapy,15,Undirected,Anti-Inflammatory Agents,Drug Therapy
+acupuncture_therapy,exercise_therapy,2,Undirected,Acupuncture Therapy,Exercise Therapy
+exercise_therapy,manual_therapy,2,Undirected,Exercise Therapy,Manual Therapy
+exercise_therapy,physical_therapy,3,Undirected,Exercise Therapy,Physical Therapy
+exercise_therapy,treatment_outcome,3,Undirected,Exercise Therapy,Treatment Outcome
+manual_therapy,physical_therapy,4,Undirected,Manual Therapy,Physical Therapy
+emergency_treatment,treatment_outcome,2,Undirected,Emergency Treatment,Treatment Outcome
+acupuncture_moxibustion,acupuncture_points,3,Undirected,Acupuncture Moxibustion,Acupuncture Points
+acupuncture_moxibustion,acupuncture_therapy,6,Undirected,Acupuncture Moxibustion,Acupuncture Therapy
+migraine_therapy,phytotherapy,3,Undirected,Migraine Therapy,Phytotherapy
+mindfulness,stress,5,Undirected,Mindfulness,Stress
+monoclonal_antibodies,neuromodulation,2,Undirected,Monoclonal Antibodies,Neuromodulation
+diet,mediterranean_diet,4,Undirected,Diet,Mediterranean Diet
+aerobic_exercise,treatment_outcome,2,Undirected,Aerobic Exercise,Treatment Outcome
+hormone_replacement_therapy,perimenopause,2,Undirected,Hormone Replacement Therapy,Perimenopause
+acupuncture,acupuncture_moxibustion,5,Undirected,Acupuncture,Acupuncture Moxibustion
+acupuncture,dietary_supplements,2,Undirected,Acupuncture,Dietary Supplements
+acupuncture_therapy,dietary_supplements,3,Undirected,Acupuncture Therapy,Dietary Supplements
+acupuncture_therapy,physical_therapy_modalities,2,Undirected,Acupuncture Therapy,Physical Therapy Modalities
+migraine_treatment,therapy,2,Undirected,Migraine Treatment,Therapy
+anxiety,behavior_therapy,2,Undirected,Anxiety,Behavior Therapy
+exercise_therapy,migraine_treatment,3,Undirected,Exercise Therapy,Migraine Treatment
+migraine_therapy,neuromodulation,4,Undirected,Migraine Therapy,Neuromodulation
+treatment_outcome,trigeminal_nerve,4,Undirected,Treatment Outcome,Trigeminal Nerve
+chronic_pain,neuromodulation,2,Undirected,Chronic Pain,Neuromodulation
+erenumab,propranolol,4,Undirected,Erenumab,Propranolol
+erenumab,topiramate,4,Undirected,Erenumab,Topiramate
+fremanezumab,onabotulinumtoxina,3,Undirected,Fremanezumab,Onabotulinumtoxina
+fremanezumab,propranolol,3,Undirected,Fremanezumab,Propranolol
+fremanezumab,topiramate,3,Undirected,Fremanezumab,Topiramate
+galcanezumab,onabotulinumtoxina,4,Undirected,Galcanezumab,Onabotulinumtoxina
+galcanezumab,propranolol,3,Undirected,Galcanezumab,Propranolol
+galcanezumab,topiramate,3,Undirected,Galcanezumab,Topiramate
+onabotulinumtoxina,propranolol,4,Undirected,Onabotulinumtoxina,Propranolol
+propranolol,topiramate,5,Undirected,Propranolol,Topiramate
+propranolol,treatment_outcome,2,Undirected,Propranolol,Treatment Outcome
+botulinum_neurotoxin,treatment,2,Undirected,Botulinum Neurotoxin,Treatment
+drug_therapy,erenumab,2,Undirected,Drug Therapy,Erenumab
+acute_migraine_treatment,medication_overuse_headache,2,Undirected,Acute Migraine Treatment,Medication Overuse Headache
+acute_migraine_treatment,pain_management,4,Undirected,Acute Migraine Treatment,Pain Management
+acute_migraine_treatment,remote_electrical_neuromodulat,3,Undirected,Acute Migraine Treatment,Remote Electrical Neuromodulation
+acute_migraine_treatment,treatment_outcome,4,Undirected,Acute Migraine Treatment,Treatment Outcome
+medication_overuse_headache,pain_management,2,Undirected,Medication Overuse Headache,Pain Management
+medication_overuse_headache,remote_electrical_neuromodulat,2,Undirected,Medication Overuse Headache,Remote Electrical Neuromodulation
+nonpharmacological_treatment,treatment_outcome,2,Undirected,Nonpharmacological Treatment,Treatment Outcome
+pain_management,remote_electrical_neuromodulat,5,Undirected,Pain Management,Remote Electrical Neuromodulation
+headache_related_disability,treatment_outcome,2,Undirected,Headache-Related Disability,Treatment Outcome
+anti_inflammatory_agents,fluid_therapy,3,Undirected,Anti-Inflammatory Agents,Fluid Therapy
+magnetic_field_therapy,treatment_outcome,3,Undirected,Magnetic Field Therapy,Treatment Outcome
+magnetic_field_therapy,trigger_points,2,Undirected,Magnetic Field Therapy,Trigger Points
+radiotherapy,stroke_like_migraine_attacks_a,2,Undirected,Radiotherapy,Stroke-Like Migraine Attacks After Radiation Therapy Syndrome
+pain_management,trigeminal,2,Undirected,Pain Management,Trigeminal
+pain_management,triptans,2,Undirected,Pain Management,Triptans
+treatment_outcome,trigeminal,4,Undirected,Treatment Outcome,Trigeminal
+acute_treatment,neuromodulation,2,Undirected,Acute Treatment,Neuromodulation
+acute_treatment,pain_management,4,Undirected,Acute Treatment,Pain Management
+electric_stimulation_therapy,non_pharmacological_treatment,2,Undirected,Electric Stimulation Therapy,Non-Pharmacological Treatment
+neuromodulation,non_pharmacological_treatment,3,Undirected,Neuromodulation,Non-Pharmacological Treatment
+non_pharmacological_treatment,pain_management,2,Undirected,Non-Pharmacological Treatment,Pain Management
+non_pharmacological_treatment,remote_electrical_neuromodulat,2,Undirected,Non-Pharmacological Treatment,Remote Electrical Neuromodulation
+non_pharmacological_treatment,treatment_outcome,3,Undirected,Non-Pharmacological Treatment,Treatment Outcome
+mindfulness,mindfulness_based_stress_reduc,3,Undirected,Mindfulness,Mindfulness-Based Stress Reduction
+mindfulness_based_stress_reduc,stress,3,Undirected,Mindfulness-Based Stress Reduction,Stress
+treatment_outcome,withholding_treatment,2,Undirected,Treatment Outcome,Withholding Treatment
+acute_treatment,disability,2,Undirected,Acute Treatment,Disability
+amitriptyline,botulinum_toxin,3,Undirected,Amitriptyline,Botulinum Toxin
+amitriptyline,erenumab,3,Undirected,Amitriptyline,Erenumab
+amitriptyline,onabotulinumtoxina,3,Undirected,Amitriptyline,Onabotulinumtoxina
+amitriptyline,propranolol,3,Undirected,Amitriptyline,Propranolol
+amitriptyline,valproate,3,Undirected,Amitriptyline,Valproate
+botulinum_toxin,erenumab,3,Undirected,Botulinum Toxin,Erenumab
+botulinum_toxin,propranolol,3,Undirected,Botulinum Toxin,Propranolol
+botulinum_toxin,topiramate,3,Undirected,Botulinum Toxin,Topiramate
+botulinum_toxin,valproate,3,Undirected,Botulinum Toxin,Valproate
+erenumab,valproate,3,Undirected,Erenumab,Valproate
+onabotulinumtoxina,valproate,3,Undirected,Onabotulinumtoxina,Valproate
+propranolol,valproate,3,Undirected,Propranolol,Valproate
+topiramate,valproate,3,Undirected,Topiramate,Valproate
+electric_stimulation_therapy,external_trigeminal_nerve_stim,4,Undirected,Electric Stimulation Therapy,External Trigeminal Nerve Stimulation
+electric_stimulation_therapy,trigeminal_nerve,4,Undirected,Electric Stimulation Therapy,Trigeminal Nerve
+external_trigeminal_nerve_stim,trigeminal_nerve,3,Undirected,External Trigeminal Nerve Stimulation,Trigeminal Nerve
+dietary_supplements,electric_stimulation_therapy,3,Undirected,Dietary Supplements,Electric Stimulation Therapy
+anti_inflammatory_agents,topiramate,3,Undirected,Anti-Inflammatory Agents,Topiramate
+acupuncture_points,electroacupuncture,8,Undirected,Acupuncture Points,Electroacupuncture
+amitriptyline,treatment_outcome,3,Undirected,Amitriptyline,Treatment Outcome
+phytotherapy,treatment_outcome,2,Undirected,Phytotherapy,Treatment Outcome
+topiramate,treatment_failure,2,Undirected,Topiramate,Treatment Failure
+external_trigeminal_nerve_stim,trigeminal,2,Undirected,External Trigeminal Nerve Stimulation,Trigeminal
+anti_inflammatory_agents,pain_management,4,Undirected,Anti-Inflammatory Agents,Pain Management
+molecular_targeted_therapy,treatment,2,Undirected,Molecular Targeted Therapy,Treatment
+neuromodulation,non_pharmacologic_treatment,2,Undirected,Neuromodulation,Non-Pharmacologic Treatment
+sham_acupuncture,treatment_outcome,2,Undirected,Sham Acupuncture,Treatment Outcome
+drug_therapy,propranolol,2,Undirected,Drug Therapy,Propranolol
+migraine_therapy,topiramate,3,Undirected,Migraine Therapy,Topiramate
+dietary_approaches_stop_hypert,treatment_outcome,2,Undirected,Dietary Approaches Stop Hypertension,Treatment Outcome
+non_pharmacologic_treatment,treatment_outcome,2,Undirected,Non-Pharmacologic Treatment,Treatment Outcome
+exercise,manual_therapy,3,Undirected,Exercise,Manual Therapy
+acupuncture_therapy,neuromodulation,2,Undirected,Acupuncture Therapy,Neuromodulation
+acupuncture,fremanezumab,2,Undirected,Acupuncture,Fremanezumab
+acupuncture_therapy,fremanezumab,2,Undirected,Acupuncture Therapy,Fremanezumab
+medication,treatment,2,Undirected,Medication,Treatment
+medication,treatment_outcome,2,Undirected,Medication,Treatment Outcome
+behavior_therapy,electric_stimulation_therapy,2,Undirected,Behavior Therapy,Electric Stimulation Therapy
+cortical_spreading_depression,epilepsy,2,Undirected,Cortical Spreading Depression,Epilepsy
+cortical_spreading_depression,ischemic_stroke,2,Undirected,Cortical Spreading Depression,Ischemic Stroke
+epilepsy,ischemic_stroke,2,Undirected,Epilepsy,Ischemic Stroke
+diet,disability,2,Undirected,Diet,Disability
+diet,hypertension,2,Undirected,Diet,Hypertension
+exercise_therapy,physical_therapy_modalities,3,Undirected,Exercise Therapy,Physical Therapy Modalities
+disease_management,stress,2,Undirected,Disease Management,Stress
+acupuncture,propranolol,2,Undirected,Acupuncture,Propranolol
+acupuncture_therapy,propranolol,2,Undirected,Acupuncture Therapy,Propranolol
+amitriptyline,fremanezumab,2,Undirected,Amitriptyline,Fremanezumab
+amitriptyline,galcanezumab,2,Undirected,Amitriptyline,Galcanezumab
+botulinum_toxin,fremanezumab,2,Undirected,Botulinum Toxin,Fremanezumab
+botulinum_toxin,galcanezumab,2,Undirected,Botulinum Toxin,Galcanezumab
+fremanezumab,valproate,2,Undirected,Fremanezumab,Valproate
+galcanezumab,valproate,2,Undirected,Galcanezumab,Valproate
+acupuncture,combined_modality_therapy,3,Undirected,Acupuncture,Combined Modality Therapy
+botulinum_toxins,time_to_treatment,2,Undirected,Botulinum Toxins,Time-To-Treatment
+drug_costs,health_care_costs,2,Undirected,Drug Costs,Health Care Costs
+electric_stimulation_therapy,migraine_therapy,2,Undirected,Electric Stimulation Therapy,Migraine Therapy
+neuromodulation,preventive_therapy,2,Undirected,Neuromodulation,Preventive Therapy
+menopause,perimenopause,2,Undirected,Menopause,Perimenopause
+acupuncture_therapy,combined_modality_therapy,2,Undirected,Acupuncture Therapy,Combined Modality Therapy
+acupuncture_therapy,electroacupuncture,2,Undirected,Acupuncture Therapy,Electroacupuncture
+diet,treatment,2,Undirected,Diet,Treatment
+acute_migraine_treatment,trigeminal_nerve,2,Undirected,Acute Migraine Treatment,Trigeminal Nerve
+cognitive_behavioral_therapy,physical_therapy_modalities,2,Undirected,Cognitive Behavioral Therapy,Physical Therapy Modalities
+acupuncture,pain_management,2,Undirected,Acupuncture,Pain Management
+cognitive_behavioral_therapy,dietary_supplements,2,Undirected,Cognitive Behavioral Therapy,Dietary Supplements
+diet_therapy,treatment_outcome,2,Undirected,Diet Therapy,Treatment Outcome
+behavioral_therapy,treatment_outcome,2,Undirected,Behavioral Therapy,Treatment Outcome
+cognitive_behavioral_therapy,exercise_therapy,2,Undirected,Cognitive Behavioral Therapy,Exercise Therapy
+migraine_therapy,remote_electrical_neuromodulat,3,Undirected,Migraine Therapy,Remote Electrical Neuromodulation
+epilepsy,neuromodulation,2,Undirected,Epilepsy,Neuromodulation
+acute_treatment,disability_evaluation,2,Undirected,Acute Treatment,Disability Evaluation
