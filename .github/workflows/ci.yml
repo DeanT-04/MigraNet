@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main", "develop" ]
 
+# Security: Restrict permissions to least privilege
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -14,10 +18,11 @@ jobs:
         python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
     steps:
-    - uses: actions/checkout@v4
-
+    # Security: Pin actions to specific commits (SHAs) for immutability
+    - uses: actions/checkout@b4ffde65f4633668828d0b93fc27de2c3d802330 # v4.1.1
+    
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@0a5c67180f852e8d19849d90f96733498cfcb19a # v5.0.0
       with:
         python-version: ${{ matrix.python-version }}
         cache: 'pip'
@@ -27,12 +32,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install -r requirements-dev.txt
+        pip install pip-audit  # Security tool
+
+    - name: Security Audit (Dependencies)
+      run: |
+        # Check for known vulnerabilities in dependencies
+        pip-audit
 
     - name: Lint with flake8
       run: |
-        # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - name: Check formatting with Black
@@ -48,7 +57,7 @@ jobs:
         pytest --cov=english_version/scripts --cov-report=xml
 
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4
+      uses: codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d # v4.0.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml

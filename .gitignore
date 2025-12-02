@@ -23,23 +23,53 @@ wheels/
 
 # Virtual Environment
 venv/
+.venv/
+english_version/venv/
+chinese_version/venv/
 .env
+.env.local
+.env.*
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*.iml
 
-# Gephi
+# Logs and Databases
+*.log
+*.sqlite
+*.db
+
+# Testing and Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+coverage.xml
+
+# Gephi & Visualization
 *.gephi
 *.gexf
 
 # OS Generated
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Project Specific
-# We keep raw data but ignore large temp files if any
+# Project Specific Data (Security: Don't commit raw data unless public)
+# We allow raw/PubMed.csv as it's the core dataset, but ignore other generated files
 english_version/data/archive/
 english_version/data/discovery/
+english_version/data/processed/
+chinese_version/data/output/
+
+# Secrets and Credentials (CRITICAL)
+secrets.json
+credentials.json
+token.json
+key.pem
+*.key
+*.pub
